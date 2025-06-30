@@ -1,0 +1,15 @@
+on_game_started = {
+	on_actions = {
+		on_bem_game_started
+	}
+}
+
+on_bem_game_started = {
+	effect = {
+		every_country = {
+			add_modifier = {
+				name = bem_more_private_construction
+			}
+		}
+	}
+}

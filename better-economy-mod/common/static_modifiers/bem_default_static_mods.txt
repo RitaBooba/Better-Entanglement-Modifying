@@ -1,0 +1,4 @@
+bem_more_private_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_private_construction_allocation_mult = 0.25
+}
