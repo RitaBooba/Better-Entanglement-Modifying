@@ -266,7 +266,7 @@ pm_automated_bakery = {
 
 		level_scaled = {
 			# profit = -400 (break-even when annual laborer wage > 8.32)
-			building_employment_laborers_add = -250
+			building_employment_laborers_add = -2500
 		}
 	}
 }
@@ -359,7 +359,7 @@ pm_electric_sewing_machines = {
 			goods_input_electricity_add = 100
 
 			# output goods
-			goods_output_clothes_add = 1400
+			goods_output_clothes_add = 140
 		}
 
 		level_scaled = {
@@ -453,7 +453,7 @@ pm_mechanized_looms = {
 
 		level_scaled = {
 			# profit = -200 (break-even when annual laborer wage > 6.9)
-			building_employment_laborers_add = -150
+			building_employment_laborers_add = -1500
 		}
 	}
 }
@@ -478,7 +478,7 @@ pm_automatic_power_looms = {
 
 		level_scaled = {
 			# profit = -500 (break-even when annual laborer wage > 10.4)
-			building_employment_laborers_add = -250
+			building_employment_laborers_add = -2500
 		}
 	}
 
@@ -521,7 +521,7 @@ pm_lathe = {
 			goods_input_tools_add = 50
 
 			# output goods
-			goods_output_furniture_add = 650
+			goods_output_furniture_add = 65
 		}
 
 		level_scaled = {
@@ -555,7 +555,7 @@ pm_mechanized_workshops = {
 			goods_input_tools_add = 100
 
 			# output goods
-			goods_output_furniture_add = 1100
+			goods_output_furniture_add = 110
 		}
 
 		level_scaled = {
@@ -582,7 +582,7 @@ pm_luxury_furniture = {
 
 			# output goods
 			goods_output_furniture_add = -25
-			goods_output_luxury_furniture_add = 250
+			goods_output_luxury_furniture_add = 25
 		}
 
 		level_scaled = {
@@ -650,7 +650,7 @@ pm_watertube_boiler_building_furniture_manufacturies = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
+			building_employment_laborers_add = -1500
 		}
 	}
 }
@@ -680,7 +680,7 @@ pm_rotary_valve_engine_building_furniture_manufacturies = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
@@ -711,7 +711,7 @@ pm_assembly_lines_building_furniture_manufacturies = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -300
+			building_employment_laborers_add = -3000
 		}
 	}
 
@@ -727,7 +727,7 @@ pm_forest_glass = {
 			goods_input_wood_add = 300
 
 			# output goods
-			goods_output_glass_add = 300
+			goods_output_glass_add = 30
 		}
 
 		level_scaled = {
@@ -757,7 +757,7 @@ pm_leaded_glass = {
 			goods_input_lead_add = 100
 
 			# output goods
-			goods_output_glass_add = 400
+			goods_output_glass_add = 40
 		}
 
 		level_scaled = {
@@ -787,7 +787,7 @@ pm_crystal_glass = {
 			goods_input_lead_add = 350
 
 			# output goods
-			goods_output_glass_add = 600
+			goods_output_glass_add = 60
 		}
 
 		level_scaled = {
@@ -819,7 +819,7 @@ pm_houseware_plastics = {
 			goods_input_lead_add = 300
 
 			# output goods
-			goods_output_glass_add = 1000
+			goods_output_glass_add = 100
 		}
 
 		level_scaled = {
@@ -845,7 +845,7 @@ pm_ceramics = {
 
 			# output goods
 			goods_output_glass_add = -10
-			goods_output_porcelain_add = 100
+			goods_output_porcelain_add = 10
 		}
 
 		level_scaled = {
@@ -873,7 +873,7 @@ pm_bone_china = {
 
 			# output goods
 			goods_output_glass_add = -20
-			goods_output_porcelain_add = 300
+			goods_output_porcelain_add = 30
 		}
 
 		level_scaled = {
@@ -912,7 +912,7 @@ pm_automatic_bottle_blowers = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -250
+			building_employment_laborers_add = -2500
 		}
 	}
 }
@@ -926,7 +926,7 @@ pm_crude_tools = {
 			goods_input_wood_add = 300
 
 			# output goods
-			goods_output_tools_add = 300
+			goods_output_tools_add = 30
 		}
 
 		level_scaled = {
@@ -950,7 +950,7 @@ pm_pig_iron = {
 			goods_input_iron_add = 200
 
 			# output goods
-			goods_output_tools_add = 600
+			goods_output_tools_add = 60
 		}
 
 		level_scaled = {
@@ -973,7 +973,7 @@ pm_steel = {
 			goods_input_steel_add = 200
 
 			# output goods
-			goods_output_tools_add = 800
+			goods_output_tools_add = 80
 		}
 
 		level_scaled = {
@@ -997,7 +997,7 @@ pm_rubber_grips = {
 			goods_input_steel_add = 300
 
 			# output goods
-			goods_output_tools_add = 1100
+			goods_output_tools_add = 110
 		}
 
 		level_scaled = {
@@ -1032,7 +1032,7 @@ pm_watertube_boiler_building_tooling_workshops = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
+			building_employment_laborers_add = -1500
 		}
 	}
 }
@@ -1060,7 +1060,7 @@ pm_rotary_valve_engine_building_tooling_workshops = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
@@ -1089,7 +1089,7 @@ pm_assembly_lines_building_tooling_workshops = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -300
+			building_employment_laborers_add = -3000
 		}
 	}
 
@@ -1105,7 +1105,7 @@ pm_pulp_pressing = {
 			goods_input_wood_add = 300
 
 			# output goods
-			goods_output_paper_add = 400
+			goods_output_paper_add = 40
 		}
 
 		level_scaled = {
@@ -1134,7 +1134,7 @@ pm_sulfite_pulping = {
 			goods_input_sulfur_add = 100
 
 			# output goods
-			goods_output_paper_add = 700
+			goods_output_paper_add = 70
 		}
 
 		level_scaled = {
@@ -1165,7 +1165,7 @@ pm_bleached_paper = {
 			goods_input_dye_add = 100
 
 			# output goods
-			goods_output_paper_add = 1000
+			goods_output_paper_add = 100
 		}
 
 		level_scaled = {
@@ -1202,7 +1202,7 @@ pm_watertube_boiler_building_paper_mills = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
+			building_employment_laborers_add = -1500
 		}
 	}
 }
@@ -1232,7 +1232,7 @@ pm_rotary_valve_engine_building_paper_mills = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
@@ -1252,7 +1252,7 @@ pm_artificial_fertilizers = {
 			goods_input_iron_add = 100
 
 			# output goods
-			goods_output_fertilizer_add = 900
+			goods_output_fertilizer_add = 90
 		}
 
 		level_scaled = {
@@ -1283,7 +1283,7 @@ pm_improved_fertilizer = {
 			goods_input_iron_add = 300
 
 			# output goods
-			goods_output_fertilizer_add = 1400
+			goods_output_fertilizer_add = 140
 		}
 
 		level_scaled = {
@@ -1316,7 +1316,7 @@ pm_nitrogen_fixation = {
 			goods_input_iron_add = 300
 
 			# output goods
-			goods_output_fertilizer_add = 2000
+			goods_output_fertilizer_add = 200
 		}
 
 		level_scaled = {
@@ -1348,7 +1348,7 @@ pm_leblanc_process = {
 			goods_input_fertilizer_add = 200
 
 			# output goods
-			goods_output_explosives_add = 500
+			goods_output_explosives_add = 50
 		}
 
 		level_scaled = {
@@ -1381,7 +1381,7 @@ pm_ammonia-soda_process = {
 			goods_input_paper_add = 100
 
 			# output goods
-			goods_output_explosives_add = 800
+			goods_output_explosives_add = 80
 		}
 
 		level_scaled = {
@@ -1414,7 +1414,7 @@ pm_vacuum_evaporation = {
 			goods_input_paper_add = 200
 
 			# output goods
-			goods_output_explosives_add = 1100
+			goods_output_explosives_add = 110
 		}
 
 		level_scaled = {
@@ -1448,7 +1448,7 @@ pm_brine_electrolysis = {
 			goods_input_electricity_add = 200
 
 			# output goods
-			goods_output_explosives_add = 1500
+			goods_output_explosives_add = 150
 		}
 
 		level_scaled = {
@@ -1479,7 +1479,7 @@ pm_dye_production = {
 			goods_input_fertilizer_add = 300
 
 			# output goods
-			goods_output_dye_add = 800
+			goods_output_dye_add = 80
 		}
 
 		level_scaled = {
@@ -1510,12 +1510,12 @@ pm_rayon = {
 
 			# output goods
 			goods_output_dye_add = -10
-			goods_output_silk_add = 300
+			goods_output_silk_add = 30
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -100
+			building_employment_laborers_add = -1000
 			building_employment_machinists_add = 100
 		}
 	}
@@ -1537,7 +1537,7 @@ pm_blister_steel_process = {
 			goods_input_coal_add = 300
 
 			# output goods
-			goods_output_steel_add = 650
+			goods_output_steel_add = 65
 		}
 
 		level_scaled = {
@@ -1569,7 +1569,7 @@ pm_bessemer_process = {
 			goods_input_coal_add = 300
 
 			# output goods
-			goods_output_steel_add = 900
+			goods_output_steel_add = 90
 		}
 
 		level_scaled = {
@@ -1602,7 +1602,7 @@ pm_open_hearth_process = {
 			goods_input_coal_add = 300
 
 			# output goods
-			goods_output_steel_add = 1200
+			goods_output_steel_add = 120
 		}
 
 		level_scaled = {
@@ -1636,7 +1636,7 @@ pm_electric_arc_process = {
 			goods_input_electricity_add = 300
 
 			# output goods
-			goods_output_steel_add = 1500
+			goods_output_steel_add = 150
 		}
 
 		level_scaled = {
@@ -1672,7 +1672,7 @@ pm_watertube_boiler_building_steel_mills = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
+			building_employment_laborers_add = -1500
 		}
 	}
 }
@@ -1698,7 +1698,7 @@ pm_rotary_valve_engine_building_steel_mills = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
@@ -1716,7 +1716,7 @@ pm_steam_engines = {
 		workforce_scaled = {
 			goods_input_steel_add = 300
 
-			goods_output_engines_add = 400
+			goods_output_engines_add = 40
 		}
 
 		level_scaled = {
@@ -1748,7 +1748,7 @@ pm_electric_engines = {
 			goods_input_electricity_add = 300
 
 			# output goods
-			goods_output_engines_add = 800
+			goods_output_engines_add = 80
 		}
 
 		level_scaled = {
@@ -1782,7 +1782,7 @@ pm_diesel_engines = {
 			goods_input_oil_add = 500
 
 			# output goods
-			goods_output_engines_add = 1200
+			goods_output_engines_add = 120
 		}
 
 		level_scaled = {
@@ -1815,8 +1815,8 @@ pm_watertube_boiler_building_motor_industry = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -50
-			building_employment_machinists_add = -50
+			building_employment_laborers_add = -500
+			building_employment_machinists_add = -500
 		}
 	}
 }
@@ -1842,8 +1842,8 @@ pm_rotary_valve_engine_building_motor_industry = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -100
-			building_employment_machinists_add = -50
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = -500
 		}
 	}
 }
@@ -1869,8 +1869,8 @@ pm_assembly_lines_building_motor_industry = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
-			building_employment_machinists_add = -50
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = -500
 		}
 	}
 
@@ -1898,8 +1898,8 @@ pm_assembly_lines_building_automotive_industry = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
-			building_employment_machinists_add = -50
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = -500
 		}
 	}
 
@@ -1916,7 +1916,7 @@ pm_basic_shipbuilding = {
 			goods_input_fabric_add = 200
 
 			# output goods
-			goods_output_clippers_add = 350
+			goods_output_clippers_add = 35
 		}
 
 		level_scaled = {
@@ -1944,7 +1944,7 @@ pm_complex_shipbuilding = {
 			goods_input_engines_add = 50
 
 			# output goods
-			goods_output_clippers_add = 700
+			goods_output_clippers_add = 70
 		}
 
 		level_scaled = {
@@ -1978,7 +1978,7 @@ pm_metal_shipbuilding = {
 			goods_input_engines_add = 100
 
 			# output goods
-			goods_output_steamers_add = 650
+			goods_output_steamers_add = 65
 		}
 
 		level_scaled = {
@@ -2012,7 +2012,7 @@ pm_arc_welding_shipbuilding = {
 			goods_input_engines_add = 100
 
 			# output goods
-			goods_output_steamers_add = 800
+			goods_output_steamers_add = 80
 		}
 
 		level_scaled = {
@@ -2041,7 +2041,7 @@ pm_military_shipbuilding_wooden = {
 			goods_input_fabric_add = 200
 			goods_input_iron_add = 100
 			# output goods
-			goods_output_manowars_add = 350
+			goods_output_manowars_add = 35
 		}
 
 		level_scaled = {
@@ -2069,7 +2069,7 @@ pm_military_shipbuilding_wooden_2 = {
 			goods_input_engines_add = 50
 			goods_input_iron_add = 100
 			# output goods
-			goods_output_manowars_add = 450
+			goods_output_manowars_add = 45
 		}
 		level_scaled = {
 			# employment
@@ -2095,7 +2095,7 @@ pm_military_shipbuilding_steam = {
 			goods_input_coal_add = 200
 			goods_input_engines_add = 100
 			# output goods
-			goods_output_ironclads_add = 550
+			goods_output_ironclads_add = 55
 		}
 		level_scaled = {
 			# employment
@@ -2122,7 +2122,7 @@ pm_military_shipbuilding_steam_2 = {
 			goods_input_engines_add = 200
 
 			# output goods
-			goods_output_ironclads_add = 700
+			goods_output_ironclads_add = 70
 		}
 		level_scaled = {
 			# employment
@@ -2156,7 +2156,7 @@ pm_automobile_production = {
 			goods_input_oil_add = 50
 
 			# output goods
-			goods_output_automobiles_add = 300
+			goods_output_automobiles_add = 30
 		}
 
 		level_scaled = {
@@ -2188,7 +2188,7 @@ pm_mass_automobile_production = {
 			goods_input_oil_add = 100
 
 			# output goods
-			goods_output_automobiles_add = 600
+			goods_output_automobiles_add = 60
 		}
 
 		level_scaled = {
@@ -2219,7 +2219,7 @@ pm_aeroplane_production = {
 
 			# output goods
 			goods_output_automobiles_add = -10
-			goods_output_aeroplanes_add = 100
+			goods_output_aeroplanes_add = 10
 		}
 
 		level_scaled = {
@@ -2246,7 +2246,7 @@ pm_tank_production = {
 
 			# output goods
 			goods_output_automobiles_add = -20
-			goods_output_tanks_add = 200
+			goods_output_tanks_add = 20
 		}
 
 		level_scaled = {
@@ -2264,7 +2264,7 @@ pm_telephones = {
 			goods_input_lead_add = 200
 			goods_input_tools_add = 100
 
-			goods_output_telephones_add = 600
+			goods_output_telephones_add = 60
 		}
 
 		level_scaled = {
@@ -2289,7 +2289,7 @@ pm_radios = {
 		workforce_scaled = {
 			goods_input_electricity_add = 500
 			goods_output_telephones_add = -20
-			goods_output_radios_add = 400
+			goods_output_radios_add = 40
 		}
 
 		level_scaled = {
@@ -2310,7 +2310,7 @@ pm_muskets = {
 			goods_input_hardwood_add = 100
 
 			# output goods
-			goods_output_small_arms_add = 300
+			goods_output_small_arms_add = 30
 		}
 
 		level_scaled = {
@@ -2337,7 +2337,7 @@ pm_rifles = {
 			goods_input_tools_add = 50
 
 			# output goods
-			goods_output_small_arms_add = 500
+			goods_output_small_arms_add = 50
 		}
 
 		level_scaled = {
@@ -2364,7 +2364,7 @@ pm_repeaters = {
 			goods_input_tools_add = 100
 
 			# output goods
-			goods_output_small_arms_add = 700
+			goods_output_small_arms_add = 70
 		}
 
 		level_scaled = {
@@ -2393,7 +2393,7 @@ pm_bolt_action_rifles = {
 			goods_input_oil_add = 100
 
 			# output goods
-			goods_output_small_arms_add = 1000
+			goods_output_small_arms_add = 100
 		}
 
 		level_scaled = {
@@ -2424,7 +2424,7 @@ pm_cannons = {
 			goods_input_hardwood_add = 100
 
 			# output goods
-			goods_output_artillery_add = 250
+			goods_output_artillery_add = 25
 		}
 
 		level_scaled = {
@@ -2449,7 +2449,7 @@ pm_smoothbores = {
 			goods_input_hardwood_add = 150
 
 			# output goods
-			goods_output_artillery_add = 450
+			goods_output_artillery_add = 45
 		}
 
 		level_scaled = {
@@ -2476,7 +2476,7 @@ pm_breech_loaders = {
 			goods_input_tools_add = 100
 
 			# output goods
-			goods_output_artillery_add = 650
+			goods_output_artillery_add = 65
 		}
 
 		level_scaled = {
@@ -2503,7 +2503,7 @@ pm_recoiled_barrels = {
 			goods_input_oil_add = 100
 
 			# output goods
-			goods_output_artillery_add = 900
+			goods_output_artillery_add = 90
 		}
 
 		level_scaled = {
@@ -2534,7 +2534,7 @@ pm_rotary_valve_engine_building_arms_industry = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
@@ -2559,7 +2559,7 @@ pm_assembly_lines_building_arms_industry = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -250
+			building_employment_laborers_add = -2500
 		}
 	}
 
@@ -2582,7 +2582,7 @@ pm_percussion_caps = {
 			goods_input_lead_add = 200
 
 			# output goods
-			goods_output_ammunition_add = 500
+			goods_output_ammunition_add = 50
 		}
 
 		level_scaled = {
@@ -2614,7 +2614,7 @@ pm_explosive_shells = {
 			goods_input_lead_add = 300
 
 			# output goods
-			goods_output_ammunition_add = 900
+			goods_output_ammunition_add = 90
 		}
 
 		level_scaled = {
@@ -2645,7 +2645,7 @@ pm_rotary_valve_engine_building_munition_plants = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
@@ -2670,7 +2670,7 @@ pm_assembly_lines_building_munition_plants = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -300
+			building_employment_laborers_add = -3000
 		}
 	}
 

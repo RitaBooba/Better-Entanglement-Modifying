@@ -3,13 +3,14 @@
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_wood_add = 300
+			goods_output_wood_add = 30
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 450
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+			building_throughput_add = -0.01
 		}
 	}
 }
@@ -26,14 +27,15 @@ pm_saw_mills = {
 			goods_input_tools_add = 50
 
 			# output goods
-			goods_output_wood_add = 600
+			goods_output_wood_add = 60
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 400
-			building_employment_machinists_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+			building_throughput_add = -0.02
 		}
 	}
 }
@@ -56,10 +58,11 @@ pm_electric_saw_mills = {
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 300
-			building_employment_machinists_add = 100
-			building_employment_engineers_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+			building_throughput_add = -0.02
 		}
 	}
 
@@ -76,7 +79,7 @@ pm_hardwood = {
 		workforce_scaled = {
 			# output goods
 			goods_output_wood_add = -25
-			goods_output_hardwood_add = 100
+			goods_output_hardwood_add = 10
 		}
 	}
 }
@@ -93,7 +96,7 @@ pm_increased_hardwood = {
 		workforce_scaled = {
 			# output goods
 			goods_output_wood_add = -40
-			goods_output_hardwood_add = 200
+			goods_output_hardwood_add = 20
 		}
 	}
 }
@@ -122,7 +125,7 @@ pm_steam_donkey_building_logging_camp = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -100
+			building_employment_laborers_add = -1000
 		}
 	}
 }
@@ -144,8 +147,8 @@ pm_chainsaws = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -150
-			building_employment_engineers_add = 25
+			building_employment_laborers_add = -1500
+			building_employment_engineers_add = 250
 		}
 	}
 }
@@ -168,7 +171,7 @@ pm_rail_transport_building_logging_camp = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -100
+			building_employment_laborers_add = -1000
 		}
 	}
 }
@@ -191,7 +194,7 @@ pm_log_carts = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -150
+			building_employment_laborers_add = -1500
 		}
 	}
 }
@@ -201,12 +204,12 @@ default_building_rubber_plantation = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_rubber_add = 300
+			goods_output_rubber_add = 30
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 400
-			building_employment_farmers_add = 100
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
 		}
 	}
 }
@@ -227,13 +230,13 @@ automatic_irrigation_building_rubber_plantation = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 50
-			goods_output_rubber_add = 600
+			goods_output_rubber_add = 60
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 300
-			building_employment_farmers_add = 150
-			building_employment_machinists_add = 50
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1500
+			building_employment_machinists_add = 500
 		}
 	}
 }
@@ -244,13 +247,13 @@ pm_simple_fishing = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output
-			goods_output_fish_add = 250
+			goods_output_fish_add = 25
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 450
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
 		}
 	}
 }
@@ -264,14 +267,14 @@ pm_fishing_trawlers = {
 			goods_input_clippers_add = 50
 
 			# output
-			goods_output_fish_add = 500
+			goods_output_fish_add = 50
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 400
-			building_employment_machinists_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
 		}
 	}
 }
@@ -295,15 +298,15 @@ pm_steam_trawlers = {
 			goods_input_coal_add = 150
 
 			# output
-			goods_output_fish_add = 1000
+			goods_output_fish_add = 100
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 300
-			building_employment_machinists_add = 100
-			building_employment_engineers_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
 		}
 	}
 }
@@ -323,7 +326,7 @@ pm_refrigerated_storage_building_fishing_wharf = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -100
+			building_employment_laborers_add = -1000
 		}
 	}
 
@@ -352,7 +355,7 @@ pm_refrigerated_rail_cars_building_fishing_wharf = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 
@@ -375,7 +378,7 @@ pm_flash_freezing_building_fishing_wharf = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -300
+			building_employment_laborers_add = -3000
 		}
 	}
 
@@ -390,14 +393,14 @@ pm_simple_whaling = {
 			# input
 
 			# output
-			goods_output_meat_add = 50
-			goods_output_oil_add = 100
+			goods_output_meat_add = 5
+			goods_output_oil_add = 10
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 450
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
 		}
 	}
 }
@@ -411,15 +414,15 @@ pm_wooden_whaling_ships = {
 			goods_input_clippers_add = 50
 
 			# output
-			goods_output_meat_add = 100
-			goods_output_oil_add = 200
+			goods_output_meat_add = 10
+			goods_output_oil_add = 20
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 400
-			building_employment_machinists_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
 		}
 	}
 }
@@ -442,16 +445,16 @@ pm_steam_whaling_ships = {
 			goods_input_steamers_add = 50
 			goods_input_coal_add = 200
 
-			goods_output_meat_add = 200
-			goods_output_oil_add = 400
+			goods_output_meat_add = 20
+			goods_output_oil_add = 40
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 300
-			building_employment_machinists_add = 100
-			building_employment_engineers_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
 		}
 	}
 }
@@ -471,7 +474,7 @@ pm_refrigerated_storage_building_whaling_station = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -100
+			building_employment_laborers_add = -1000
 		}
 	}
 
@@ -500,7 +503,7 @@ pm_refrigerated_rail_cars_building_whaling_station = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 
@@ -523,7 +526,7 @@ pm_flash_freezing_building_whaling_station = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -300
+			building_employment_laborers_add = -3000
 		}
 	}
 
@@ -546,14 +549,14 @@ pm_steam_derricks = {
 			goods_input_coal_add = 100
 
 			# output goods
-			goods_output_oil_add = 600
+			goods_output_oil_add = 60
 		}
 
 		level_scaled = {
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 300
-			building_employment_machinists_add = 100
-			building_employment_engineers_add = 50
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
 		}
 	}
 }
@@ -577,14 +580,14 @@ pm_combustion_derricks = {
 			goods_input_engines_add = 100
 
 			# output goods
-			goods_output_oil_add = 1000
+			goods_output_oil_add = 100
 		}
 
 		level_scaled = {
-			building_employment_shopkeepers_add = 50
-			building_employment_laborers_add = 200
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 100
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
 		}
 	}
 }
@@ -608,7 +611,7 @@ pm_rail_transport_building_oil_rig = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -100
+			building_employment_laborers_add = -1000
 		}
 	}
 }
@@ -632,7 +635,7 @@ pm_tanker_cars = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -200
+			building_employment_laborers_add = -2000
 		}
 	}
 }
