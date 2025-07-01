@@ -16,8 +16,8 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 10
-			goods_input_coal_add = 15
+			goods_input_tools_add = 100
+			goods_input_coal_add = 150
 		}
 
 		level_scaled = {

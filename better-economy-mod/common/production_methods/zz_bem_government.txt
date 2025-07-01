@@ -41,7 +41,7 @@ pm_horizontal_drawer_cabinets = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 10
+			goods_input_paper_add = 100
 		}
 
 		level_scaled = {
@@ -70,7 +70,7 @@ pm_vertical_filing_cabinets = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 20
+			goods_input_paper_add = 200
 		}
 
 		level_scaled = {
@@ -99,8 +99,8 @@ pm_switch_boards = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 20
-			goods_input_telephones_add = 5
+			goods_input_paper_add = 200
+			goods_input_telephones_add = 50
 		}
 
 		level_scaled = {
@@ -179,7 +179,7 @@ pm_scholastic_education = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 5
+			goods_input_paper_add = 50
 		}
 
 		level_scaled = {
@@ -210,7 +210,7 @@ pm_philosophy_department = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 10
+			goods_input_paper_add = 100
 		}
 
 		level_scaled = {
@@ -241,7 +241,7 @@ pm_analytical_philosophy_department = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 15
+			goods_input_paper_add = 150
 		}
 
 		level_scaled = {
@@ -299,7 +299,7 @@ pm_skyscraper_bureaucratic_nexus = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 25
+			goods_input_paper_add = 250
 		}
 
 		level_scaled = {
@@ -322,7 +322,7 @@ pm_skyscraper_trade_nexus = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_paper_add = 25
+			goods_input_paper_add = 250
 		}
 
 		level_scaled = {
