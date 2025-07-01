@@ -1,0 +1,54 @@
+
+sulfur = {
+	texture = "gfx/interface/icons/goods_icons/sulfur.dds"
+	cost = 10
+	category = industrial
+
+	prestige_factor = 3
+	traded_quantity = 4 # 200
+}
+
+coal = {
+	texture = "gfx/interface/icons/goods_icons/coal.dds"
+	cost = 6
+	category = industrial
+
+	prestige_factor = 3
+
+	traded_quantity = 7 # 210
+	convoy_cost_multiplier = 0.75
+
+	consumption_tax_cost = 150
+}
+
+iron = {
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 8
+	category = industrial
+
+	prestige_factor = 3
+	traded_quantity = 5 # 200
+}
+
+lead = {
+	texture = "gfx/interface/icons/goods_icons/lead.dds"
+	cost = 8
+	category = industrial
+
+	prestige_factor = 3
+	traded_quantity = 5 # 200
+}
+
+
+wood = {
+	texture = "gfx/interface/icons/goods_icons/wood.dds"
+	cost = 5
+	category = staple
+
+	prestige_factor = 30
+
+	traded_quantity = 10 # 200
+	convoy_cost_multiplier = 0.25
+
+	consumption_tax_cost = 300
+}
