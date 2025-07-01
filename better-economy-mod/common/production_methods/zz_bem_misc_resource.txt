@@ -10,7 +10,7 @@
 			# employment
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 4500
-			building_throughput_add = -0.01
+			building_throughput_add = -0\.003
 		}
 	}
 }
@@ -35,7 +35,7 @@ pm_saw_mills = {
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 4000
 			building_employment_machinists_add = 500
-			building_throughput_add = -0.02
+			building_throughput_add = -0\.005
 		}
 	}
 }
@@ -62,7 +62,7 @@ pm_electric_saw_mills = {
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 1000
 			building_employment_engineers_add = 500
-			building_throughput_add = -0.02
+			building_throughput_add = -0\.005
 		}
 	}
 
