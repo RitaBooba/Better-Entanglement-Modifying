@@ -10,6 +10,12 @@ b = 10 ** (3/69)
 
 wealth_number = None
 
+def wealth_function(wealth_number):
+    if wealth_number <= 10:
+        return wealth_number * 0.03
+    else:
+        return a * b ** (wealth_number - 25)
+
 with open(textfile, "w") as f:
     for line in lines:
         stripped = line.strip()
@@ -21,7 +27,7 @@ with open(textfile, "w") as f:
             f.write(line)
         elif "political_strength" in stripped and wealth_number is not None:
             indent = line[:line.index("political_strength")]
-            ps = round(a * b ** wealth_number)
+            ps = round(wealth_function(wealth_number), 2)
             newline = f"{indent}political_strength = {ps}\n"
             f.write(newline)
         else:
