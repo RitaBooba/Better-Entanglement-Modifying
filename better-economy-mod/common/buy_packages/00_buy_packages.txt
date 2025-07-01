@@ -38,50 +38,49 @@ wealth_5 = {
 	political_strength = 0.15
 	goods = {
 		popneed_simple_clothing = 39
-		popneed_crude_items = 13
-		popneed_basic_food = 106
+		popneed_basic_food = 105
 		popneed_heating = 22
-		popneed_intoxicants = 41
+		popneed_intoxicants = 39
 	}
 }
 wealth_6 = {
 	political_strength = 0.18
 	goods = {
 		popneed_simple_clothing = 42
-		popneed_crude_items = 19
+		popneed_crude_items = 12
 		popneed_basic_food = 110
 		popneed_heating = 23
-		popneed_intoxicants = 47
+		popneed_intoxicants = 41
 	}
 }
 wealth_7 = {
 	political_strength = 0.21
 	goods = {
 		popneed_simple_clothing = 43
-		popneed_crude_items = 26
-		popneed_basic_food = 118
+		popneed_crude_items = 13
+		popneed_basic_food = 110
 		popneed_heating = 26
-		popneed_intoxicants = 52
+		popneed_intoxicants = 42
 	}
 }
 wealth_8 = {
 	political_strength = 0.24
 	goods = {
 		popneed_simple_clothing = 43
-		popneed_crude_items = 39
-		popneed_basic_food = 121
+		popneed_crude_items = 12
+		popneed_basic_food = 112
 		popneed_heating = 27
-		popneed_intoxicants = 60
+		popneed_intoxicants = 45
 	}
 }
 wealth_9 = {
 	political_strength = 0.27
 	goods = {
-		popneed_simple_clothing = 43
-		popneed_crude_items = 48
-		popneed_basic_food = 132
+		popneed_simple_clothing = 45
+		popneed_crude_items = 14
+		popneed_basic_food = 114
 		popneed_heating = 29
-		popneed_intoxicants = 62
+		popneed_intoxicants = 47
 	}
 }
 wealth_10 = {
