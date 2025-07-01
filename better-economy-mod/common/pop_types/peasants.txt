@@ -60,12 +60,11 @@
 	portrait_is_female = { always = yes }
 
 	qualifications = {
-		value = 0.5
+		value = -20
 		subtract = {
 			value = state.state_urbanization_rate
 			multiply = state.state_urbanization_rate
-			multiply = 2
-			max =0.5
+			multiply = 20
 		}
 	}
 }
