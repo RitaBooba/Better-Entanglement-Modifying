@@ -42,7 +42,7 @@ lead = {
 
 wood = {
 	texture = "gfx/interface/icons/goods_icons/wood.dds"
-	cost = 10
+	cost = 6
 	category = staple
 
 	prestige_factor = 30

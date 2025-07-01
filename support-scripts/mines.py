@@ -1,8 +1,8 @@
-goods = ["wood"]#["wood", "iron", "coal", "lead", "sulfur", "gold", "rubber", "oil"]
+goods = ["wood", "iron", "coal", "lead", "sulfur", "gold", "rubber", "oil"]
 
 files = ["better-economy-mod/common/production_methods/zz_bem_mines.txt", "better-economy-mod/common/production_methods/zz_bem_misc_resource.txt"]
 
-multiplier = 2
+multiplier = 1
 
 import re
 

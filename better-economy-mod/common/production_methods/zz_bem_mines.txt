@@ -7,7 +7,7 @@
 			goods_input_tools_add = 5
 
 			# output goods
-			goods_output_coal_add = 50
+			goods_output_coal_add = 31
 		}
 
 		level_scaled = {
@@ -37,7 +37,7 @@ pm_atmospheric_engine_pump_building_coal_mine = {
 			goods_input_tools_add = 10
 
 			# output goods
-			goods_output_coal_add = 80
+			goods_output_coal_add = 50
 		}
 
 		level_scaled = {
@@ -69,7 +69,7 @@ pm_condensing_engine_pump_building_coal_mine = {
 			goods_input_tools_add = 15
 
 			# output goods
-			goods_output_coal_add = 120
+			goods_output_coal_add = 75
 		}
 
 		level_scaled = {
@@ -102,7 +102,7 @@ pm_diesel_pump_building_coal_mine = {
 			goods_input_oil_add = 5
 
 			# output goods
-			goods_output_coal_add = 180
+			goods_output_coal_add = 112
 		}
 
 		level_scaled = {
@@ -124,7 +124,7 @@ pm_picks_and_shovels_building_iron_mine = {
 			goods_input_tools_add = 5
 
 			# output goods
-			goods_output_iron_add = 40
+			goods_output_iron_add = 25
 		}
 
 		level_scaled = {
@@ -155,7 +155,7 @@ pm_atmospheric_engine_pump_building_iron_mine = {
 			goods_input_coal_add = 10
 
 			# output goods
-			goods_output_iron_add = 80
+			goods_output_iron_add = 50
 		}
 
 		level_scaled = {
@@ -188,7 +188,7 @@ pm_condensing_engine_pump_building_iron_mine = {
 			goods_input_coal_add = 15
 
 			# output goods
-			goods_output_iron_add = 120
+			goods_output_iron_add = 75
 		}
 
 		level_scaled = {
@@ -221,7 +221,7 @@ pm_diesel_pump_building_iron_mine = {
 			goods_input_oil_add = 5
 
 			# output goods
-			goods_output_iron_add = 140
+			goods_output_iron_add = 88
 		}
 
 		level_scaled = {
@@ -243,7 +243,7 @@ pm_picks_and_shovels_building_lead_mine = {
 			goods_input_tools_add = 5
 
 			# output goods
-			goods_output_lead_add = 40
+			goods_output_lead_add = 25
 		}
 
 		level_scaled = {
@@ -273,7 +273,7 @@ pm_atmospheric_engine_pump_building_lead_mine = {
 			goods_input_coal_add = 10
 
 			# output goods
-			goods_output_lead_add = 80
+			goods_output_lead_add = 50
 		}
 
 		level_scaled = {
@@ -305,7 +305,7 @@ pm_condensing_engine_pump_building_lead_mine = {
 			goods_input_coal_add = 15
 
 			# output goods
-			goods_output_lead_add = 120
+			goods_output_lead_add = 75
 		}
 
 		level_scaled = {
@@ -337,7 +337,7 @@ pm_diesel_pump_building_lead_mine = {
 			goods_input_oil_add = 5
 
 			# output goods
-			goods_output_lead_add = 140
+			goods_output_lead_add = 88
 		}
 
 		level_scaled = {
@@ -359,7 +359,7 @@ pm_picks_and_shovels_building_sulfur_mine = {
 			goods_input_tools_add = 5
 
 			# output goods
-			goods_output_sulfur_add = 40
+			goods_output_sulfur_add = 25
 		}
 
 		level_scaled = {
@@ -389,7 +389,7 @@ pm_atmospheric_engine_pump_building_sulfur_mine = {
 			goods_input_coal_add = 10
 
 			# output goods
-			goods_output_sulfur_add = 80
+			goods_output_sulfur_add = 50
 		}
 
 		level_scaled = {
@@ -421,7 +421,7 @@ pm_condensing_engine_pump_building_sulfur_mine = {
 			goods_input_coal_add = 15
 
 			# output goods
-			goods_output_sulfur_add = 120
+			goods_output_sulfur_add = 75
 		}
 
 		level_scaled = {
@@ -453,7 +453,7 @@ pm_diesel_pump_building_sulfur_mine = {
 			goods_input_oil_add = 5
 
 			# output goods
-			goods_output_sulfur_add = 160
+			goods_output_sulfur_add = 100
 		}
 
 		level_scaled = {
@@ -475,7 +475,7 @@ pm_picks_and_shovels_building_gold_mine = {
 			goods_input_tools_add = 5
 
 			# output goods
-			goods_output_gold_add = 16
+			goods_output_gold_add = 10
 		}
 
 		level_scaled = {
@@ -511,7 +511,7 @@ pm_atmospheric_engine_pump_building_gold_mine = {
 			goods_input_coal_add = 10
 
 			# output goods
-			goods_output_gold_add = 30
+			goods_output_gold_add = 19
 		}
 
 		level_scaled = {
@@ -550,7 +550,7 @@ pm_condensing_engine_pump_building_gold_mine = {
 			goods_input_coal_add = 15
 
 			# output goods
-			goods_output_gold_add = 50
+			goods_output_gold_add = 31
 		}
 
 		level_scaled = {
@@ -588,7 +588,7 @@ pm_diesel_pump_building_gold_mine = {
 			goods_input_oil_add = 5
 
 			# output goods
-			goods_output_gold_add = 60
+			goods_output_gold_add = 38
 		}
 
 		level_scaled = {
@@ -612,7 +612,7 @@ default_building_gold_fields = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_gold_add = 20
+			goods_output_gold_add = 12
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 50
