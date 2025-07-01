@@ -8,7 +8,7 @@
 	}
 }
 wealth_2 = {
-	political_strength = 0.04
+	political_strength = 5901
 	goods = {
 		popneed_simple_clothing = 27
 		popneed_basic_food = 94
@@ -17,7 +17,7 @@ wealth_2 = {
 	}
 }
 wealth_3 = {
-	political_strength = 0.05
+	political_strength = 6522
 	goods = {
 		popneed_simple_clothing = 33
 		popneed_basic_food = 98
@@ -26,7 +26,7 @@ wealth_3 = {
 	}
 }
 wealth_4 = {
-	political_strength = 0.1
+	political_strength = 7209
 	goods = {
 		popneed_simple_clothing = 37
 		popneed_basic_food = 105
@@ -35,7 +35,7 @@ wealth_4 = {
 	}
 }
 wealth_5 = {
-	political_strength = 0.15
+	political_strength = 7968
 	goods = {
 		popneed_simple_clothing = 39
 		popneed_crude_items = 13
@@ -45,7 +45,7 @@ wealth_5 = {
 	}
 }
 wealth_6 = {
-	political_strength = 0.25
+	political_strength = 8807
 	goods = {
 		popneed_simple_clothing = 42
 		popneed_crude_items = 19
@@ -55,7 +55,7 @@ wealth_6 = {
 	}
 }
 wealth_7 = {
-	political_strength = 0.35
+	political_strength = 9734
 	goods = {
 		popneed_simple_clothing = 43
 		popneed_crude_items = 26
@@ -65,7 +65,7 @@ wealth_7 = {
 	}
 }
 wealth_8 = {
-	political_strength = 0.45
+	political_strength = 10759
 	goods = {
 		popneed_simple_clothing = 43
 		popneed_crude_items = 39
@@ -75,7 +75,7 @@ wealth_8 = {
 	}
 }
 wealth_9 = {
-	political_strength = 0.6
+	political_strength = 11892
 	goods = {
 		popneed_simple_clothing = 43
 		popneed_crude_items = 48
@@ -85,7 +85,7 @@ wealth_9 = {
 	}
 }
 wealth_10 = {
-	political_strength = 0.75
+	political_strength = 13144
 	goods = {
 		popneed_simple_clothing = 41
 		popneed_crude_items = 45
@@ -99,7 +99,7 @@ wealth_10 = {
 	}
 }
 wealth_11 = {
-	political_strength = 0.9
+	political_strength = 14528
 	goods = {
 		popneed_simple_clothing = 38
 		popneed_crude_items = 41
@@ -113,7 +113,7 @@ wealth_11 = {
 	}
 }
 wealth_12 = {
-	political_strength = 1.4
+	political_strength = 16058
 	goods = {
 		popneed_simple_clothing = 34
 		popneed_crude_items = 26
@@ -127,7 +127,7 @@ wealth_12 = {
 	}
 }
 wealth_13 = {
-	political_strength = 1.9
+	political_strength = 17749
 	goods = {
 		popneed_simple_clothing = 18
 		popneed_crude_items = 18
@@ -141,7 +141,7 @@ wealth_13 = {
 	}
 }
 wealth_14 = {
-	political_strength = 2.4
+	political_strength = 19617
 	goods = {
 		popneed_simple_clothing = 11
 		popneed_crude_items = 11
@@ -155,7 +155,7 @@ wealth_14 = {
 	}
 }
 wealth_15 = {
-	political_strength = 4.6
+	political_strength = 21683
 	goods = {
 		popneed_basic_food = 166
 		popneed_heating = 26
@@ -169,7 +169,7 @@ wealth_15 = {
 	}
 }
 wealth_16 = {
-	political_strength = 6.8
+	political_strength = 23966
 	goods = {
 		popneed_basic_food = 168
 		popneed_heating = 26
@@ -183,7 +183,7 @@ wealth_16 = {
 	}
 }
 wealth_17 = {
-	political_strength = 9
+	political_strength = 26490
 	goods = {
 		popneed_basic_food = 171
 		popneed_heating = 26
@@ -197,7 +197,7 @@ wealth_17 = {
 	}
 }
 wealth_18 = {
-	political_strength = 12
+	political_strength = 29279
 	goods = {
 		popneed_basic_food = 173
 		popneed_heating = 26
@@ -211,7 +211,7 @@ wealth_18 = {
 	}
 }
 wealth_19 = {
-	political_strength = 15
+	political_strength = 32362
 	goods = {
 		popneed_basic_food = 173
 		popneed_heating = 26
@@ -225,7 +225,7 @@ wealth_19 = {
 	}
 }
 wealth_20 = {
-	political_strength = 18
+	political_strength = 35769
 	goods = {
 		popneed_basic_food = 163
 		popneed_heating = 26
@@ -242,7 +242,7 @@ wealth_20 = {
 	}
 }
 wealth_21 = {
-	political_strength = 22
+	political_strength = 39536
 	goods = {
 		popneed_basic_food = 161
 		popneed_heating = 26
@@ -259,7 +259,7 @@ wealth_21 = {
 	}
 }
 wealth_22 = {
-	political_strength = 26
+	political_strength = 43699
 	goods = {
 		popneed_basic_food = 157
 		popneed_heating = 26
@@ -276,7 +276,7 @@ wealth_22 = {
 	}
 }
 wealth_23 = {
-	political_strength = 30
+	political_strength = 48300
 	goods = {
 		popneed_basic_food = 159
 		popneed_heating = 26
@@ -293,7 +293,7 @@ wealth_23 = {
 	}
 }
 wealth_24 = {
-	political_strength = 34
+	political_strength = 53386
 	goods = {
 		popneed_basic_food = 162
 		popneed_heating = 26
@@ -310,7 +310,7 @@ wealth_24 = {
 	}
 }
 wealth_25 = {
-	political_strength = 39
+	political_strength = 59007
 	goods = {
 		popneed_basic_food = 165
 		popneed_heating = 26
@@ -327,7 +327,7 @@ wealth_25 = {
 	}
 }
 wealth_26 = {
-	political_strength = 44
+	political_strength = 65220
 	goods = {
 		popneed_basic_food = 167
 		popneed_heating = 26
@@ -344,7 +344,7 @@ wealth_26 = {
 	}
 }
 wealth_27 = {
-	political_strength = 49
+	political_strength = 72088
 	goods = {
 		popneed_basic_food = 154
 		popneed_heating = 26
@@ -361,7 +361,7 @@ wealth_27 = {
 	}
 }
 wealth_28 = {
-	political_strength = 54
+	political_strength = 79678
 	goods = {
 		popneed_basic_food = 133
 		popneed_heating = 26
@@ -378,7 +378,7 @@ wealth_28 = {
 	}
 }
 wealth_29 = {
-	political_strength = 59
+	political_strength = 88068
 	goods = {
 		popneed_basic_food = 108
 		popneed_heating = 26
@@ -395,7 +395,7 @@ wealth_29 = {
 	}
 }
 wealth_30 = {
-	political_strength = 65
+	political_strength = 97341
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 209
@@ -411,7 +411,7 @@ wealth_30 = {
 	}
 }
 wealth_31 = {
-	political_strength = 71
+	political_strength = 107590
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -427,7 +427,7 @@ wealth_31 = {
 	}
 }
 wealth_32 = {
-	political_strength = 77
+	political_strength = 118919
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -443,7 +443,7 @@ wealth_32 = {
 	}
 }
 wealth_33 = {
-	political_strength = 83
+	political_strength = 131441
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -459,7 +459,7 @@ wealth_33 = {
 	}
 }
 wealth_34 = {
-	political_strength = 89
+	political_strength = 145281
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -475,7 +475,7 @@ wealth_34 = {
 	}
 }
 wealth_35 = {
-	political_strength = 95
+	political_strength = 160578
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -491,7 +491,7 @@ wealth_35 = {
 	}
 }
 wealth_36 = {
-	political_strength = 102
+	political_strength = 177486
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -507,7 +507,7 @@ wealth_36 = {
 	}
 }
 wealth_37 = {
-	political_strength = 109
+	political_strength = 196175
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -523,7 +523,7 @@ wealth_37 = {
 	}
 }
 wealth_38 = {
-	political_strength = 116
+	political_strength = 216831
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -539,7 +539,7 @@ wealth_38 = {
 	}
 }
 wealth_39 = {
-	political_strength = 123
+	political_strength = 239662
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -555,7 +555,7 @@ wealth_39 = {
 	}
 }
 wealth_40 = {
-	political_strength = 130
+	political_strength = 264897
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -570,7 +570,7 @@ wealth_40 = {
 	}
 }
 wealth_41 = {
-	political_strength = 140
+	political_strength = 292790
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -585,7 +585,7 @@ wealth_41 = {
 	}
 }
 wealth_42 = {
-	political_strength = 150
+	political_strength = 323619
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -600,7 +600,7 @@ wealth_42 = {
 	}
 }
 wealth_43 = {
-	political_strength = 160
+	political_strength = 357695
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -615,7 +615,7 @@ wealth_43 = {
 	}
 }
 wealth_44 = {
-	political_strength = 170
+	political_strength = 395358
 	goods = {
 		popneed_heating = 26
 		popneed_household_items = 238
@@ -630,7 +630,7 @@ wealth_44 = {
 	}
 }
 wealth_45 = {
-	political_strength = 185
+	political_strength = 436987
 	goods = {
 		popneed_heating = 26
 		popneed_services = 1960
@@ -644,7 +644,7 @@ wealth_45 = {
 	}
 }
 wealth_46 = {
-	political_strength = 200
+	political_strength = 483000
 	goods = {
 		popneed_heating = 26
 		popneed_services = 2139
@@ -658,7 +658,7 @@ wealth_46 = {
 	}
 }
 wealth_47 = {
-	political_strength = 215
+	political_strength = 533858
 	goods = {
 		popneed_heating = 26
 		popneed_services = 2358
@@ -672,7 +672,7 @@ wealth_47 = {
 	}
 }
 wealth_48 = {
-	political_strength = 230
+	political_strength = 590070
 	goods = {
 		popneed_heating = 26
 		popneed_services = 2598
@@ -686,7 +686,7 @@ wealth_48 = {
 	}
 }
 wealth_49 = {
-	political_strength = 250
+	political_strength = 652202
 	goods = {
 		popneed_heating = 26
 		popneed_services = 2891
@@ -700,7 +700,7 @@ wealth_49 = {
 	}
 }
 wealth_50 = {
-	political_strength = 275
+	political_strength = 720875
 	goods = {
 		popneed_heating = 26
 		popneed_services = 3185
@@ -714,7 +714,7 @@ wealth_50 = {
 	}
 }
 wealth_51 = {
-	political_strength = 300
+	political_strength = 796780
 	goods = {
 		popneed_heating = 26
 		popneed_services = 3544
@@ -728,7 +728,7 @@ wealth_51 = {
 	}
 }
 wealth_52 = {
-	political_strength = 325
+	political_strength = 880677
 	goods = {
 		popneed_heating = 26
 		popneed_services = 3864
@@ -742,7 +742,7 @@ wealth_52 = {
 	}
 }
 wealth_53 = {
-	political_strength = 350
+	political_strength = 973408
 	goods = {
 		popneed_heating = 26
 		popneed_services = 4213
@@ -756,7 +756,7 @@ wealth_53 = {
 	}
 }
 wealth_54 = {
-	political_strength = 375
+	political_strength = 1075903
 	goods = {
 		popneed_heating = 26
 		popneed_services = 4549
@@ -770,7 +770,7 @@ wealth_54 = {
 	}
 }
 wealth_55 = {
-	political_strength = 400
+	political_strength = 1189191
 	goods = {
 		popneed_heating = 26
 		popneed_services = 4759
@@ -784,7 +784,7 @@ wealth_55 = {
 	}
 }
 wealth_56 = {
-	political_strength = 425
+	political_strength = 1314407
 	goods = {
 		popneed_heating = 26
 		popneed_services = 5139
@@ -798,7 +798,7 @@ wealth_56 = {
 	}
 }
 wealth_57 = {
-	political_strength = 450
+	political_strength = 1452807
 	goods = {
 		popneed_heating = 26
 		popneed_services = 5308
@@ -812,7 +812,7 @@ wealth_57 = {
 	}
 }
 wealth_58 = {
-	political_strength = 475
+	political_strength = 1605781
 	goods = {
 		popneed_heating = 26
 		popneed_services = 5735
@@ -826,7 +826,7 @@ wealth_58 = {
 	}
 }
 wealth_59 = {
-	political_strength = 500
+	political_strength = 1774862
 	goods = {
 		popneed_heating = 26
 		popneed_services = 5961
@@ -840,7 +840,7 @@ wealth_59 = {
 	}
 }
 wealth_60 = {
-	political_strength = 525
+	political_strength = 1961746
 	goods = {
 		popneed_heating = 26
 		popneed_services = 6561
@@ -854,7 +854,7 @@ wealth_60 = {
 	}
 }
 wealth_61 = {
-	political_strength = 550
+	political_strength = 2168308
 	goods = {
 		popneed_heating = 26
 		popneed_services = 6860
@@ -868,7 +868,7 @@ wealth_61 = {
 	}
 }
 wealth_62 = {
-	political_strength = 575
+	political_strength = 2396621
 	goods = {
 		popneed_heating = 26
 		popneed_services = 7549
@@ -882,7 +882,7 @@ wealth_62 = {
 	}
 }
 wealth_63 = {
-	political_strength = 600
+	political_strength = 2648973
 	goods = {
 		popneed_heating = 26
 		popneed_services = 7862
@@ -896,7 +896,7 @@ wealth_63 = {
 	}
 }
 wealth_64 = {
-	political_strength = 625
+	political_strength = 2927897
 	goods = {
 		popneed_heating = 26
 		popneed_services = 8651
@@ -910,7 +910,7 @@ wealth_64 = {
 	}
 }
 wealth_65 = {
-	political_strength = 650
+	political_strength = 3236191
 	goods = {
 		popneed_heating = 26
 		popneed_services = 9520
@@ -924,7 +924,7 @@ wealth_65 = {
 	}
 }
 wealth_66 = {
-	political_strength = 675
+	political_strength = 3576946
 	goods = {
 		popneed_heating = 26
 		popneed_services = 10475
@@ -938,7 +938,7 @@ wealth_66 = {
 	}
 }
 wealth_67 = {
-	political_strength = 700
+	political_strength = 3953581
 	goods = {
 		popneed_heating = 26
 		popneed_services = 11526
@@ -952,7 +952,7 @@ wealth_67 = {
 	}
 }
 wealth_68 = {
-	political_strength = 725
+	political_strength = 4369874
 	goods = {
 		popneed_heating = 26
 		popneed_services = 12682
@@ -966,7 +966,7 @@ wealth_68 = {
 	}
 }
 wealth_69 = {
-	political_strength = 750
+	political_strength = 4830000
 	goods = {
 		popneed_heating = 26
 		popneed_services = 13953
@@ -980,7 +980,7 @@ wealth_69 = {
 	}
 }
 wealth_70 = {
-	political_strength = 775
+	political_strength = 5338576
 	goods = {
 		popneed_heating = 26
 		popneed_services = 15352
@@ -994,7 +994,7 @@ wealth_70 = {
 	}
 }
 wealth_71 = {
-	political_strength = 800
+	political_strength = 5900702
 	goods = {
 		popneed_heating = 26
 		popneed_services = 16890
@@ -1008,7 +1008,7 @@ wealth_71 = {
 	}
 }
 wealth_72 = {
-	political_strength = 825
+	political_strength = 6522017
 	goods = {
 		popneed_heating = 26
 		popneed_services = 18583
@@ -1022,7 +1022,7 @@ wealth_72 = {
 	}
 }
 wealth_73 = {
-	political_strength = 850
+	political_strength = 7208753
 	goods = {
 		popneed_heating = 26
 		popneed_services = 20444
@@ -1036,7 +1036,7 @@ wealth_73 = {
 	}
 }
 wealth_74 = {
-	political_strength = 875
+	political_strength = 7967800
 	goods = {
 		popneed_heating = 26
 		popneed_services = 22492
@@ -1050,7 +1050,7 @@ wealth_74 = {
 	}
 }
 wealth_75 = {
-	political_strength = 900
+	political_strength = 8806771
 	goods = {
 		popneed_heating = 26
 		popneed_services = 24744
@@ -1064,7 +1064,7 @@ wealth_75 = {
 	}
 }
 wealth_76 = {
-	political_strength = 925
+	political_strength = 9734081
 	goods = {
 		popneed_heating = 26
 		popneed_services = 27222
@@ -1078,7 +1078,7 @@ wealth_76 = {
 	}
 }
 wealth_77 = {
-	political_strength = 950
+	political_strength = 10759032
 	goods = {
 		popneed_heating = 26
 		popneed_services = 29947
@@ -1092,7 +1092,7 @@ wealth_77 = {
 	}
 }
 wealth_78 = {
-	political_strength = 975
+	political_strength = 11891906
 	goods = {
 		popneed_heating = 26
 		popneed_services = 32946
@@ -1106,7 +1106,7 @@ wealth_78 = {
 	}
 }
 wealth_79 = {
-	political_strength = 1000
+	political_strength = 13144066
 	goods = {
 		popneed_heating = 26
 		popneed_services = 36243
@@ -1120,7 +1120,7 @@ wealth_79 = {
 	}
 }
 wealth_80 = {
-	political_strength = 1025
+	political_strength = 14528073
 	goods = {
 		popneed_heating = 26
 		popneed_services = 39871
@@ -1134,7 +1134,7 @@ wealth_80 = {
 	}
 }
 wealth_81 = {
-	political_strength = 1050
+	political_strength = 16057808
 	goods = {
 		popneed_heating = 26
 		popneed_services = 43861
@@ -1148,7 +1148,7 @@ wealth_81 = {
 	}
 }
 wealth_82 = {
-	political_strength = 1075
+	political_strength = 17748617
 	goods = {
 		popneed_heating = 26
 		popneed_services = 48251
@@ -1162,7 +1162,7 @@ wealth_82 = {
 	}
 }
 wealth_83 = {
-	political_strength = 1100
+	political_strength = 19617460
 	goods = {
 		popneed_heating = 26
 		popneed_services = 53079
@@ -1176,7 +1176,7 @@ wealth_83 = {
 	}
 }
 wealth_84 = {
-	political_strength = 1125
+	political_strength = 21683084
 	goods = {
 		popneed_heating = 26
 		popneed_services = 58390
@@ -1190,7 +1190,7 @@ wealth_84 = {
 	}
 }
 wealth_85 = {
-	political_strength = 1150
+	political_strength = 23966207
 	goods = {
 		popneed_heating = 26
 		popneed_services = 64233
@@ -1204,7 +1204,7 @@ wealth_85 = {
 	}
 }
 wealth_86 = {
-	political_strength = 1175
+	political_strength = 26489732
 	goods = {
 		popneed_heating = 26
 		popneed_services = 70659
@@ -1218,7 +1218,7 @@ wealth_86 = {
 	}
 }
 wealth_87 = {
-	political_strength = 1200
+	political_strength = 29278972
 	goods = {
 		popneed_heating = 26
 		popneed_services = 77728
@@ -1232,7 +1232,7 @@ wealth_87 = {
 	}
 }
 wealth_88 = {
-	political_strength = 1225
+	political_strength = 32361906
 	goods = {
 		popneed_heating = 26
 		popneed_services = 85505
@@ -1246,7 +1246,7 @@ wealth_88 = {
 	}
 }
 wealth_89 = {
-	political_strength = 1250
+	political_strength = 35769457
 	goods = {
 		popneed_heating = 26
 		popneed_services = 94058
@@ -1260,7 +1260,7 @@ wealth_89 = {
 	}
 }
 wealth_90 = {
-	political_strength = 1275
+	political_strength = 39535807
 	goods = {
 		popneed_heating = 26
 		popneed_services = 103468
@@ -1274,7 +1274,7 @@ wealth_90 = {
 	}
 }
 wealth_91 = {
-	political_strength = 1300
+	political_strength = 43698735
 	goods = {
 		popneed_heating = 26
 		popneed_services = 113818
@@ -1288,7 +1288,7 @@ wealth_91 = {
 	}
 }
 wealth_92 = {
-	political_strength = 1325
+	political_strength = 48300000
 	goods = {
 		popneed_heating = 26
 		popneed_services = 125203
@@ -1302,7 +1302,7 @@ wealth_92 = {
 	}
 }
 wealth_93 = {
-	political_strength = 1350
+	political_strength = 53385755
 	goods = {
 		popneed_heating = 26
 		popneed_services = 137726
@@ -1316,7 +1316,7 @@ wealth_93 = {
 	}
 }
 wealth_94 = {
-	political_strength = 1375
+	political_strength = 59007016
 	goods = {
 		popneed_heating = 26
 		popneed_services = 151502
@@ -1330,7 +1330,7 @@ wealth_94 = {
 	}
 }
 wealth_95 = {
-	political_strength = 1400
+	political_strength = 65220168
 	goods = {
 		popneed_heating = 26
 		popneed_services = 166656
@@ -1344,7 +1344,7 @@ wealth_95 = {
 	}
 }
 wealth_96 = {
-	political_strength = 1425
+	political_strength = 72087535
 	goods = {
 		popneed_heating = 26
 		popneed_services = 183324
@@ -1358,7 +1358,7 @@ wealth_96 = {
 	}
 }
 wealth_97 = {
-	political_strength = 1450
+	political_strength = 79678002
 	goods = {
 		popneed_heating = 26
 		popneed_services = 201660
@@ -1372,7 +1372,7 @@ wealth_97 = {
 	}
 }
 wealth_98 = {
-	political_strength = 1475
+	political_strength = 88067708
 	goods = {
 		popneed_heating = 26
 		popneed_services = 221829
@@ -1386,7 +1386,7 @@ wealth_98 = {
 	}
 }
 wealth_99 = {
-	political_strength = 1500
+	political_strength = 97340810
 	goods = {
 		popneed_heating = 26
 		popneed_services = 244016
