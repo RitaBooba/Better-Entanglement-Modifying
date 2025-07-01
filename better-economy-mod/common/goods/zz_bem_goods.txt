@@ -1,7 +1,7 @@
 
 sulfur = {
 	texture = "gfx/interface/icons/goods_icons/sulfur.dds"
-	cost = 20
+	cost = 15
 	category = industrial
 
 	prestige_factor = 3
@@ -10,7 +10,7 @@ sulfur = {
 
 coal = {
 	texture = "gfx/interface/icons/goods_icons/coal.dds"
-	cost = 12
+	cost = 15
 	category = industrial
 
 	prestige_factor = 3
@@ -23,7 +23,7 @@ coal = {
 
 iron = {
 	texture = "gfx/interface/icons/goods_icons/iron.dds"
-	cost = 16
+	cost = 15
 	category = industrial
 
 	prestige_factor = 3
@@ -32,7 +32,7 @@ iron = {
 
 lead = {
 	texture = "gfx/interface/icons/goods_icons/lead.dds"
-	cost = 16
+	cost = 15
 	category = industrial
 
 	prestige_factor = 3
@@ -55,7 +55,7 @@ wood = {
 
 rubber = {
 	texture = "gfx/interface/icons/goods_icons/rubber.dds"
-	cost = 20
+	cost = 15
 	category = industrial
 
 	prestige_factor = 4
