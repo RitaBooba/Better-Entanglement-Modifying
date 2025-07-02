@@ -169,3 +169,97 @@ pm_combustion_derricks = {
 		}
 	}
 }
+
+pm_rail_transport_building_logging_camp = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		railways
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -100
+		}
+	}
+}
+
+pm_log_carts = {
+	texture = "gfx/interface/icons/production_method_icons/log_carts.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		electric_railway
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -150
+		}
+	}
+}
+
+pm_steam_donkey_building_logging_camp = {
+	texture = "gfx/interface/icons/production_method_icons/steam_donkey.dds"
+
+	unlocking_technologies = {
+		steam_donkey
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 1
+			goods_input_coal_add = 4
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -100
+		}
+	}
+}
+
+pm_chainsaws = {
+	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
+	unlocking_technologies = {
+		combustion_engine
+	}
+	disallowing_laws = {
+		law_industry_banned
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 1
+			goods_input_oil_add = 4
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -150
+			building_employment_engineers_add = 25
+		}
+	}
+}
