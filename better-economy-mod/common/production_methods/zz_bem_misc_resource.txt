@@ -69,48 +69,6 @@ pm_electric_saw_mills = {
 	required_input_goods = electricity
 }
 
-default_building_rubber_plantation = {
-	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_output_rubber_add = 38
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 400
-			building_employment_farmers_add = 100
-		}
-	}
-}
-
-automatic_irrigation_building_rubber_plantation = {
-	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 5
-		}
-	}
-
-	unlocking_technologies = {
-		pumpjacks
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_engines_add = 5
-			goods_output_rubber_add = 75
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 300
-			building_employment_farmers_add = 150
-			building_employment_machinists_add = 50
-		}
-	}
-}
-
 pm_steam_derricks = {
 	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
 
