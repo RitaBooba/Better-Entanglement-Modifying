@@ -16,6 +16,12 @@ building_group_bg_subsistence_ranching_employee_mult = {
 	percent = yes
 }
 
+building_employment_lumpen_add = {
+	decimals=0
+	color=good
+	percent=no
+}
+
 building_employment_laborers_mult = {
 	decimals=0
 	color=bad
