@@ -8,3 +8,8 @@ construction_cost_very_low = 100
 
 bem_cost_high = 2000
 bpm_cost_very_high = 5000
+
+bem_ruralization_rate = {
+	value = 1
+	subtract = state_urbanization_rate
+}
