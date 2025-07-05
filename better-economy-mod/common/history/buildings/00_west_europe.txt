@@ -1772,7 +1772,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=3
+						levels=5
 					}
 				}
 				reserves=1
@@ -1808,7 +1808,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -1824,10 +1824,10 @@
 						region="STATE_MIDLANDS"
 					}
 					building={
-						type="building_furniture_manufacturies"
+						type="building_financial_district"
 						country="c:GBR"
-						levels=2
-						region="STATE_MIDLANDS"
+						levels=7
+						region="STATE_HOME_COUNTIES"
 					}
 				}
 				reserves=1
@@ -1839,7 +1839,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=2
+						levels=4
 						region="STATE_MIDLANDS"
 					}
 				}
@@ -1852,7 +1852,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=1
+						levels=2
 						region="STATE_MIDLANDS"
 					}
 				}
@@ -1940,7 +1940,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -1956,6 +1956,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=10
+						region="STATE_HOME_COUNTIES"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_disabled_distillery" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"  }
 			}
 		}
 	}
@@ -2201,7 +2214,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=2
+						levels=4
 						region="STATE_HOME_COUNTIES"
 					}
 					building={
@@ -2334,6 +2347,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
+			}
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:GBR"
+						levels=5
+						region="STATE_HOME_COUNTIES"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_disabled_distillery" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"  }
 			}
 		}
 	}
