@@ -2,3 +2,6 @@
   bem_more_private_construction: "Private Construction Rebalance"
   bem_urbanization_boost: "Urban State"
   state_rural_nerf: "Rural State"
+
+  building_group_bg_subsistence_agriculture_employee_mult: "Subsistence Agriculture Employee Multiplier"
+  building_group_bg_subsistence_ranching_employee_mult: "Subsistence Ranching Employee Multiplier"
