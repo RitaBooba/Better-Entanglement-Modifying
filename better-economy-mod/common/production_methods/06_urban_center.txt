@@ -7,7 +7,7 @@
 		}
 
 		level_scaled = {
-			building_employment_lumpen_add = 1000
+			building_employment_lumpen_add = 2000
 			building_employment_laborers_add = 350
 			building_employment_clerks_add = 90
 			building_employment_shopkeepers_add = 40
@@ -28,7 +28,7 @@ pm_market_squares = {
 		}
 
 		level_scaled = {
-			building_employment_lumpen_add = 1500
+			building_employment_lumpen_add = 3500
 			building_employment_laborers_add = 300
 			building_employment_clerks_add = 140
 			building_employment_shopkeepers_add = 40
@@ -50,7 +50,7 @@ pm_covered_markets = {
 		}
 
 		level_scaled = {
-			building_employment_lumpen_add = 1000
+			building_employment_lumpen_add = 2000
 			building_employment_laborers_add = 250
 			building_employment_clerks_add = 190
 			building_employment_shopkeepers_add = 40
@@ -73,7 +73,7 @@ pm_arcades = {
 		}
 
 		level_scaled = {
-			building_employment_lumpen_add = 1000
+			building_employment_lumpen_add = 1500
 			building_employment_laborers_add = 100
 			building_employment_clerks_add = 300
 			building_employment_shopkeepers_add = 100
