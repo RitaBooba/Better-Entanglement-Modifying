@@ -7,4 +7,6 @@
   building_group_bg_subsistence_agriculture_employee_mult_desc: "Multiplier for the number of employees in Subsistence Agriculture buildings."
   building_group_bg_subsistence_ranching_employee_mult: "Subsistence Ranching Employee Multiplier"
   building_group_bg_subsistence_ranching_employee_mult_desc: "Multiplier for the number of employees in Subsistence Ranching buildings."
-  lumpen: "Lumpen"
+  lumpen: "@laborers! Lumpen"
+  lumpen_only_icon: "@laborers!"
+  lumpen_no_icon: "Lumpen"
