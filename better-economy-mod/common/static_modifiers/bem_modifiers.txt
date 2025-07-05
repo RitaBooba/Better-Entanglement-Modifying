@@ -5,7 +5,7 @@ bem_more_private_construction = {
 
 bem_urbanization_boost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	building_group_bg_manufacturing_throughput_add = 2.5
+	building_group_bg_manufacturing_throughput_add = 0.5
 	building_group_bg_subsistence_agriculture_employee_mult = -0.95
 	building_group_bg_subsistence_ranching_employee_mult = -0.95
 	state_migration_pull_add = 50 
@@ -25,5 +25,5 @@ state_rural_nerf = {
 	state_birth_rate_mult = 0.5
 	state_mortality_mult = 0.15
 	building_group_bg_subsistence_agriculture_employee_mult = 1.5
-	building_group_bg_subsistence_ranching_employee_mult = 1.5
+	building_group_bg_subsistence_ranching_employee_mult = 2
 }
