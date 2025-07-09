@@ -45,7 +45,7 @@ wood = {
 	cost = 6
 	category = staple
 
-	prestige_factor = 30
+	prestige_factor = 3
 
 	traded_quantity = 10 # 200
 	convoy_cost_multiplier = 0.25
