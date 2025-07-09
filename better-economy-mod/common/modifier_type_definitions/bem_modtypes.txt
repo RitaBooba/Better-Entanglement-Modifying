@@ -22,6 +22,12 @@ building_employment_lumpen_add = {
 	percent=no
 }
 
+state_lumpen_dependent_wage_mult = {
+	decimals=0
+	color=neutral
+	percent=yes
+}
+
 building_employment_laborers_mult = {
 	decimals=0
 	color=bad
