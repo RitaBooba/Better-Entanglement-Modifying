@@ -1107,7 +1107,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=15
+						levels=25
 					}
 				}
 				reserves=1
@@ -1369,7 +1369,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -1464,6 +1464,17 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages"  }
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:GBR"
+						levels=6
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -1678,7 +1689,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=2
+						levels=6
 					}
 				}
 				reserves=1
@@ -1951,7 +1962,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=2
+						levels=6
 					}
 				}
 				reserves=1
@@ -2155,7 +2166,7 @@
 				add_ownership={
 					country={
 						country="c:GBR"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
