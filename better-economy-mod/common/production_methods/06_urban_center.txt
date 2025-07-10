@@ -177,7 +177,7 @@ pm_public_trams = {
 		level_scaled = {
 			building_employment_engineers_add = 10
 			building_employment_machinists_add = 20
-			building_employment_laborers_add = -500
+			building_employment_laborers_add = -50
 		}
 	}
 }
@@ -204,7 +204,7 @@ pm_public_motor_carriages = {
 		level_scaled = {
 			building_employment_engineers_add = 20
 			building_employment_machinists_add = 40
-			building_employment_laborers_add = -1000
+			building_employment_laborers_add = -100
 		}
 	}
 }
