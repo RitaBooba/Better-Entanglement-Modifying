@@ -1,0 +1,58 @@
+je_bem_borrowing = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_internal_affairs
+
+	on_monthly_pulse = {
+		effect = {
+			scope:journal_entry = {
+				if = {
+					limit = {
+						NOT = {
+							has_modifier = bem_capitalist_investment
+						}
+					}
+					add_modifier = {
+						name = bem_capitalist_investment
+						multiplier = 5
+					}
+				}
+			}
+		}
+	}
+
+	complete = {
+
+	}
+
+	immediate = {
+
+	}
+
+	on_complete = {
+
+	}
+
+	invalid = {
+
+	}
+
+	current_value = {
+	}
+
+	goal_add_value = {
+
+	}
+
+	is_shown_when_inactive = {
+		always = yes
+	}
+ 
+	possible = {
+		always = yes
+	}
+
+	progressbar = yes
+
+	weight = 100
+}

@@ -16,6 +16,6 @@ bem_ruralization_rate = {
 
 bem_urbanization_rate = {
 	value = total_urbanization
-	divide = 60
+	divide = 8000
 	max = 1
 }
