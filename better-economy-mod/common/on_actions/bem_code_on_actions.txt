@@ -30,11 +30,11 @@ on_monthly_pulse_state = {
 		}
 		if = {
 			limit = {
-				bpm_urbanization_rate > 0.5
+				bem_urbanization_rate > 0.5
 			}
 			add_modifier = {
 				name = bem_urbanization_boost
-				multiplier = bpm_urbanization_rate
+				multiplier = bem_urbanization_rate
 			}
 		}
 		else = {
@@ -42,7 +42,7 @@ on_monthly_pulse_state = {
 				name = state_rural_nerf
 				multiplier = {
 					value = 1
-					subtract = bpm_urbanization_rate
+					subtract = bem_urbanization_rate
 				}
 			}
 		}

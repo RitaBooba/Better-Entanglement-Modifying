@@ -11,10 +11,10 @@ bpm_cost_very_high = 5000
 
 bem_ruralization_rate = {
 	value = 1
-	subtract = bpm_urbanization_rate
+	subtract = bem_urbanization_rate
 }
 
-bpm_urbanization_rate = {
+bem_urbanization_rate = {
 	value = total_urbanization
 	divide = 60
 	max = 1
