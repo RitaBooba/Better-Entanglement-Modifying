@@ -16,9 +16,9 @@ def wealth_function(wealth_number):
     elif wealth_number <= 25:
         return ((wealth_number - 10) ** (1)) * 0.48 + 0.3
     elif wealth_number <= 45:
-        return ((wealth_number - 15) ** (2)) + 8
+        return ((wealth_number - 15) ** (1.5)) + 8
     else:
-        return ((wealth_number - 45) ** (3)) * 2 + 70
+        return ((wealth_number - 45) ** (2)) * 2 + 70
 
 with open(textfile, "w") as f:
     for line in lines:
