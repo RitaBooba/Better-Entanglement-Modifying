@@ -52,3 +52,9 @@ state_construction_power_add = {
 	color=neutral
 	percent=no
 }
+
+goods_input_services_add = {
+	decimals=0
+	color=bad
+	percent=no
+}
