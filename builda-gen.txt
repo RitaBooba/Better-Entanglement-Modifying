@@ -1,0 +1,876 @@
+
+if = { limit = { scope:target_building = bt:building_angkor_wat }
+    create_building = {
+        building = building_angkor_wat
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_argebam }
+    create_building = {
+        building = building_argebam
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_arms_industry }
+    create_building = {
+        building = building_arms_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_artillery_foundries }
+    create_building = {
+        building = building_artillery_foundries
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_arts_academy }
+    create_building = {
+        building = building_arts_academy
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_automotive_industry }
+    create_building = {
+        building = building_automotive_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_banana_plantation }
+    create_building = {
+        building = building_banana_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_barracks }
+    create_building = {
+        building = building_barracks
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_big_ben }
+    create_building = {
+        building = building_big_ben
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_capitol_hill }
+    create_building = {
+        building = building_capitol_hill
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_central_park }
+    create_building = {
+        building = building_central_park
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_chemical_plants }
+    create_building = {
+        building = building_chemical_plants
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_chichen_itza }
+    create_building = {
+        building = building_chichen_itza
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_coal_mine }
+    create_building = {
+        building = building_coal_mine
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_coffee_plantation }
+    create_building = {
+        building = building_coffee_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_company_headquarter }
+    create_building = {
+        building = building_company_headquarter
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_company_hq }
+    create_building = {
+        building = building_company_hq
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_company_regional_headquarter }
+    create_building = {
+        building = building_company_regional_headquarter
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_company_regional_hq }
+    create_building = {
+        building = building_company_regional_hq
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_conscription_center }
+    create_building = {
+        building = building_conscription_center
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_construction_2x2_entity }
+    create_building = {
+        building = building_construction_2x2_entity
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_construction_3x3_entity }
+    create_building = {
+        building = building_construction_3x3_entity
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_construction_sector }
+    create_building = {
+        building = building_construction_sector
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_construction_skyscraper_entity }
+    create_building = {
+        building = building_construction_skyscraper_entity
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_cotton_plantation }
+    create_building = {
+        building = building_cotton_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_cristo_redentor }
+    create_building = {
+        building = building_cristo_redentor
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_dye_plantation }
+    create_building = {
+        building = building_dye_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_easter_island_heads }
+    create_building = {
+        building = building_easter_island_heads
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_eiffel_tower }
+    create_building = {
+        building = building_eiffel_tower
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_electrics_industry }
+    create_building = {
+        building = building_electrics_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_entity }
+    create_building = {
+        building = building_entity
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_explosives_factory }
+    create_building = {
+        building = building_explosives_factory
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_eye_of_sahara }
+    create_building = {
+        building = building_eye_of_sahara
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_financial_district }
+    create_building = {
+        building = building_financial_district
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_fishing_wharf }
+    create_building = {
+        building = building_fishing_wharf
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_food_industry }
+    create_building = {
+        building = building_food_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_forbidden_city }
+    create_building = {
+        building = building_forbidden_city
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_furniture_manufacturies }
+    create_building = {
+        building = building_furniture_manufacturies
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_giza_necropolis }
+    create_building = {
+        building = building_giza_necropolis
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_glassworks }
+    create_building = {
+        building = building_glassworks
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_gold_fields }
+    create_building = {
+        building = building_gold_fields
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_gold_mine }
+    create_building = {
+        building = building_gold_mine
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_government_administration }
+    create_building = {
+        building = building_government_administration
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_group }
+    create_building = {
+        building = building_group
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_hagia_sophia }
+    create_building = {
+        building = building_hagia_sophia
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_halloween_castledracula }
+    create_building = {
+        building = building_halloween_castledracula
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_icons }
+    create_building = {
+        building = building_icons
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_iron_mine }
+    create_building = {
+        building = building_iron_mine
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_khaju_bridge }
+    create_building = {
+        building = building_khaju_bridge
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_lead_mine }
+    create_building = {
+        building = building_lead_mine
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_livestock_ranch }
+    create_building = {
+        building = building_livestock_ranch
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_logging_camp }
+    create_building = {
+        building = building_logging_camp
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_machu_picchu }
+    create_building = {
+        building = building_machu_picchu
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_maize_farm }
+    create_building = {
+        building = building_maize_farm
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_manor_house }
+    create_building = {
+        building = building_manor_house
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_manor_houses }
+    create_building = {
+        building = building_manor_houses
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_martandsuntemple }
+    create_building = {
+        building = building_martandsuntemple
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_military_shipyards }
+    create_building = {
+        building = building_military_shipyards
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_millet_farm }
+    create_building = {
+        building = building_millet_farm
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_mosque_of_djenne }
+    create_building = {
+        building = building_mosque_of_djenne
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_motor_industry }
+    create_building = {
+        building = building_motor_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_munition_plants }
+    create_building = {
+        building = building_munition_plants
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_naval_base }
+    create_building = {
+        building = building_naval_base
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_observatorygreenwich }
+    create_building = {
+        building = building_observatorygreenwich
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_oil_rig }
+    create_building = {
+        building = building_oil_rig
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_opium_plantation }
+    create_building = {
+        building = building_opium_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panama_canal }
+    create_building = {
+        building = building_panama_canal
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_farming }
+    create_building = {
+        building = building_panel_bg_farming
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_fishing }
+    create_building = {
+        building = building_panel_bg_fishing
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_harbour }
+    create_building = {
+        building = building_panel_bg_harbour
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_heavy_industry }
+    create_building = {
+        building = building_panel_bg_heavy_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_light_industry }
+    create_building = {
+        building = building_panel_bg_light_industry
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_military }
+    create_building = {
+        building = building_panel_bg_military
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_mining }
+    create_building = {
+        building = building_panel_bg_mining
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_monuments }
+    create_building = {
+        building = building_panel_bg_monuments
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_oil }
+    create_building = {
+        building = building_panel_bg_oil
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_plantations }
+    create_building = {
+        building = building_panel_bg_plantations
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_panel_bg_railways }
+    create_building = {
+        building = building_panel_bg_railways
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_paper_mills }
+    create_building = {
+        building = building_paper_mills
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_petra }
+    create_building = {
+        building = building_petra
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_port }
+    create_building = {
+        building = building_port
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_power_bloc_statue }
+    create_building = {
+        building = building_power_bloc_statue
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_power_plant }
+    create_building = {
+        building = building_power_plant
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_powerblock_statue }
+    create_building = {
+        building = building_powerblock_statue
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_railway }
+    create_building = {
+        building = building_railway
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_rice_farm }
+    create_building = {
+        building = building_rice_farm
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_rubber_plantation }
+    create_building = {
+        building = building_rubber_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_rye_farm }
+    create_building = {
+        building = building_rye_farm
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_saint_basils_cathedral }
+    create_building = {
+        building = building_saint_basils_cathedral
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_shipyards }
+    create_building = {
+        building = building_shipyards
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_silk_plantation }
+    create_building = {
+        building = building_silk_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_skyscraper }
+    create_building = {
+        building = building_skyscraper
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_statue_of_liberty }
+    create_building = {
+        building = building_statue_of_liberty
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_steel_mills }
+    create_building = {
+        building = building_steel_mills
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_farm_fish }
+    create_building = {
+        building = building_subsistence_farm_fish
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_farm_fruit }
+    create_building = {
+        building = building_subsistence_farm_fruit
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_farm_grain }
+    create_building = {
+        building = building_subsistence_farm_grain
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_farm_meat }
+    create_building = {
+        building = building_subsistence_farm_meat
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_farm_rice }
+    create_building = {
+        building = building_subsistence_farm_rice
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_farms }
+    create_building = {
+        building = building_subsistence_farms
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_fishing_villages }
+    create_building = {
+        building = building_subsistence_fishing_villages
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_orchards }
+    create_building = {
+        building = building_subsistence_orchards
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_pastures }
+    create_building = {
+        building = building_subsistence_pastures
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_subsistence_rice_paddies }
+    create_building = {
+        building = building_subsistence_rice_paddies
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_suez_canal }
+    create_building = {
+        building = building_suez_canal
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_sugar_plantation }
+    create_building = {
+        building = building_sugar_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_sulfur_mine }
+    create_building = {
+        building = building_sulfur_mine
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_synthetics_plants }
+    create_building = {
+        building = building_synthetics_plants
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_taj_mahal }
+    create_building = {
+        building = building_taj_mahal
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_tea_plantation }
+    create_building = {
+        building = building_tea_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_temple_of_poseidon }
+    create_building = {
+        building = building_temple_of_poseidon
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_textile_mills }
+    create_building = {
+        building = building_textile_mills
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_tobacco_plantation }
+    create_building = {
+        building = building_tobacco_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_tooling_workshops }
+    create_building = {
+        building = building_tooling_workshops
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_trade_center }
+    create_building = {
+        building = building_trade_center
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_type }
+    create_building = {
+        building = building_type
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_university }
+    create_building = {
+        building = building_university
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_urban_center }
+    create_building = {
+        building = building_urban_center
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_vatican_city }
+    create_building = {
+        building = building_vatican_city
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_victoria_terminus }
+    create_building = {
+        building = building_victoria_terminus
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_vineyard_plantation }
+    create_building = {
+        building = building_vineyard_plantation
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_wat_arun }
+    create_building = {
+        building = building_wat_arun
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_whaling_station }
+    create_building = {
+        building = building_whaling_station
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_wheat_farm }
+    create_building = {
+        building = building_wheat_farm
+        level = scope:level
+    }
+}
+    
+if = { limit = { scope:target_building = bt:building_white_house }
+    create_building = {
+        building = building_white_house
+        level = scope:level
+    }
+}
+    

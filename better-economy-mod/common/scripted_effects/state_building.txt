@@ -1,0 +1,14 @@
+bem_add_building_to_queue = {
+	# scope:target_building => building_type
+	# ROOT = state
+
+	# converts scope target_building to a number
+	# we should have scope building_hash
+	bem_buildahash = yes
+
+	add_to_queue = {
+		name = bem_state_building_queue
+		value = scope:building_hash
+	}
+
+}

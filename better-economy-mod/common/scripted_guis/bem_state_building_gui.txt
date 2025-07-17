@@ -1,0 +1,14 @@
+bem_build_building = {
+	scope = country
+
+	saved_scopes = {
+		target_state
+		target_building
+	}
+
+	effect = {
+		scope:target_state = {
+			bem_add_building_to_queue = yes
+		}
+	}
+}
