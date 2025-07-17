@@ -5,11 +5,10 @@ def polstrength [wealth] {
     } else if $wealth <= 25 {
         ($wealth - 10) ** 1 * 0.48 + 0.3
     } else if $wealth <= 45 {
-        ($wealth - 15) ** 2 + 8
+        ($wealth - 15) ** 1.5 + 8
     } else { 
-        ($wealth - 45) ** 3 * 2 + 70
+        ($wealth - 45) ** 2 * 2 + 70
     }
-    | math floor
 }
 
 def popneed_basic_food [wealth] {
@@ -78,7 +77,7 @@ def popneed_standard_clothing [wealth] {
 
 def popneed_services [wealth] {
     if ($wealth >= 10) {
-        (1.158 ** $wealth) + 20
+        (1.2 ** $wealth) + 20
     } else {
         0
     }
@@ -98,7 +97,7 @@ def popneed_intoxicants [wealth] {
 
 def popneed_luxury_drinks [wealth] {
     if ($wealth >= 15) {
-        (1.145 ** $wealth) + 20
+        (1.145 ** $wealth) + 20 / 2
     } else {
         0
     }
@@ -107,7 +106,7 @@ def popneed_luxury_drinks [wealth] {
 
 def popneed_free_movement [wealth] {
     if ($wealth >= 10) {
-        1.145 ** $wealth
+        1.145 ** $wealth / 4
     } else {
         0
     }
@@ -116,7 +115,7 @@ def popneed_free_movement [wealth] {
 
 def popneed_communication [wealth] {
     if ($wealth >= 20) {
-        (1.145 ** $wealth) + 20
+        (1.145 ** $wealth) / 3 + 20
     } else {
         0
     }
@@ -125,7 +124,7 @@ def popneed_communication [wealth] {
 
 def popneed_luxury_food [wealth] {
     if ($wealth >= 20) {
-        (1.145 ** $wealth) + 20
+        (1.145 ** $wealth) + 20 / 2
     } else {
         0
     }
@@ -134,7 +133,7 @@ def popneed_luxury_food [wealth] {
 
 def popneed_luxury_items [wealth] {
     if ($wealth >= 15) {
-        (1.165 ** $wealth) + 20
+        (1.165 ** $wealth) + 20 / 3
     } else {
         0
     }
@@ -143,7 +142,7 @@ def popneed_luxury_items [wealth] {
 
 def popneed_leisure [wealth] {
     if ($wealth >= 20) {
-        (1.165 ** $wealth) + 20
+        (1.165 ** $wealth) + 20 / 3
     } else {
         0
     }
@@ -180,5 +179,5 @@ def 'to pdxscript' []: record -> string {
 | str join "\n"
 }
 
-1..99 | reduce --fold {} {|i| insert $"wealth_($i)" {political_strength: (polstrength $i), goods: (goods $i)}} | to pdxscript 
-| save -f "../better-economy-mod/common/buy_packages/00_buy_packages.txt"
+1..99 | reduce --fold {} {|i| insert $"wealth_($i)" {political_strength: (polstrength $i), goods: (goods $i)}}
+| to pdxscript | save -f "../better-economy-mod/common/buy_packages/00_buy_packages.txt"
