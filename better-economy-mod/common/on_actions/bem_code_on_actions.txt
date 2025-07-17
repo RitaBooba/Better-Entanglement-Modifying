@@ -47,5 +47,20 @@ on_monthly_pulse_state = {
 			}
 		}
 
+		random_scope_building = {
+			limit = {
+				is_building_type = building_urban_center
+			}
+			save_scope_value_as = {
+				name = govadlv
+				value = level
+			}
+		}
+
+		create_building = {
+			building = building_government_administration
+			level = scope:govadlv
+		}
+
 	}
 }

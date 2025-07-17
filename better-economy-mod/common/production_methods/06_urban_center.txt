@@ -502,6 +502,24 @@ pm_oil-fired_plant = {
 
 
 # BEM
+
+# BEM
+pm_bem_no_construction_infrastructure = {
+	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+		}
+	}
+
+}
 pm_bem_basic_construction_infrastructure = {
 	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
 	building_modifiers = {
