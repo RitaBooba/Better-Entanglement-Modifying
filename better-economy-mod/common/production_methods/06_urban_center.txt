@@ -499,3 +499,109 @@ pm_oil-fired_plant = {
 		}
 	}
 }
+
+
+# BEM
+pm_bem_basic_construction_infrastructure = {
+	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 80
+			goods_input_fabric_add = 20
+			goods_input_tools_add = 20
+			goods_output_services_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 50
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_power_add = 1
+			state_infrastructure_add = 1
+		}
+	}
+
+}
+
+pm_bem_construction_sites = {
+	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 150
+			goods_input_tools_add = 120
+			goods_input_explosives_add = 5
+			goods_output_services_add = 150
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 25
+			building_employment_machinists_add = 15
+			building_employment_engineers_add = 10
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_power_add = 2
+			state_infrastructure_add = 2
+		}
+	}
+}
+
+pm_bem_organized_works = {
+	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 240
+			goods_input_glass_add = 40
+			goods_input_tools_add = 60
+			goods_input_explosives_add = 10
+			goods_output_services_add = 450
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 15
+			building_employment_machinists_add = 20
+			building_employment_engineers_add = 15
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_power_add = 5
+			state_infrastructure_add = 5
+		}
+	}
+}
+
+pm_bem_industrial_sites = {
+	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 300
+			goods_input_glass_add = 60
+			goods_input_tools_add = 80
+			goods_input_explosives_add = 10
+			goods_input_electricity_add = 40
+			goods_output_services_add = 650
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 15
+			building_employment_engineers_add = 35
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_power_add = 10
+			state_infrastructure_add = 10
+		}
+	}
+}
