@@ -11,4 +11,90 @@ bem_add_building_to_queue = {
 		value = scope:building_hash
 	}
 
+	bem_save_state_building_page_1_DBG = yes
+
+}
+
+bem_save_state_building_at_pos = {
+	# scope:position => number
+	# $var => variable name
+	remove_variable = $var$
+
+	if = {
+		limit = {
+			variable_list_size = {
+				name = bem_state_building_queue
+				value > scope:position
+			}
+		}
+		ordered_in_list = {
+			variable = bem_state_building_queue
+			order_by = 1
+			position = scope:position
+			save_scope_as = kvp
+		}
+
+		save_scope_value_as = {
+			name = bkey
+			value = bem_kvp_as_val
+		}
+
+		bem_buildaunhash = yes
+
+		set_variable = {
+			name = $var$
+			value = scope:building_tp
+		}
+	}
+}
+
+bem_save_state_building_page = {
+	# scope:offset => number
+	# page 1-4
+	save_scope_value_as = {
+		name = position
+		value = {
+			value = 0
+			add = scope:offset
+		}
+	}
+	bem_save_state_building_at_pos = { var = bem_queue_ptr_$p1$ }
+	save_scope_value_as = {
+		name = position
+		value = {
+			value = 1
+			add = scope:offset
+		}
+	}
+	bem_save_state_building_at_pos = { var = bem_queue_ptr_$p2$ }
+	save_scope_value_as = {
+		name = position
+		value = {
+			value = 2
+			add = scope:offset
+		}
+	}
+	bem_save_state_building_at_pos = { var = bem_queue_ptr_$p3$ }
+	save_scope_value_as = {
+		name = position
+		value = {
+			value = 3
+			add = scope:offset
+		}
+	}
+	bem_save_state_building_at_pos = { var = bem_queue_ptr_$p4$ }
+
+}
+
+bem_save_state_building_page_1_DBG = {
+	save_scope_value_as = {
+		name = offset
+		value = 0
+	}
+	bem_save_state_building_page = {
+		p1 = 0
+		p2 = 1
+		p3 = 2
+		p4 = 3
+	}
 }

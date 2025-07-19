@@ -19,3 +19,15 @@ bem_urbanization_rate = {
 	divide = 8000
 	max = 1
 }
+
+bem_kvp_as_val = {
+	value = scope:kvp
+	subtract = {
+		value = {
+			value = scope:kvp
+			divide = key_shift
+			floor = yes
+		}
+		multiply = key_shift
+	}
+}
