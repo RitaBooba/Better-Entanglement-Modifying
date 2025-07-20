@@ -2,6 +2,7 @@
 @panel_width_minus_10 = 530			# used to be 450
 @panel_width = 540  				# used to be 460
 @panel_width_half = 270				# used to be 230
+@panel_width_half_minus_10 = 260		# used to be 220
 @panel_width_plus_10 = 550  		# used to be 470
 @panel_width_plus_14 = 554			# used to be 474
 @panel_width_plus_14_half = 277		# used to be 237
@@ -19,26 +20,8 @@ template visible_if_produces {
 
 types building_panels
 {
-	type state_panel_buildings_content = flowcontainer {
-		ignoreinvisible = yes
+	type bem_building_queue = flowcontainer {
 		direction = vertical
-		using = default_list_position
-		spacing = 10
-
-
-		default_header_2texts = {
-			visible = no
-			blockoverride "text1" {
-				text = "BUILDINGS"
-			}
-		}
-
-		default_header = {
-			blockoverride "text" {
-				text = "BEM_STATE_CONSTRUCTION"
-			}
-		}
-
 		flowcontainer = {
 			direction = vertical
 			layoutpolicy_horizontal = expanding
@@ -174,7 +157,296 @@ types building_panels
 				expand = {}
 			}
 		}
+	}
 
+	type bem_govpms = container {
+		minimumsize = { @panel_width_half_minus_10 50 }
+
+		flowcontainer = {
+
+			parentanchor = vcenter
+			direction = vertical
+			margin_top = 3
+			margin_bottom = 3
+		}
+		vbox = {
+			layoutpolicy_vertical = expanding
+			textbox = {
+				using = fontsize_medium
+				raw_text = "Government Budget"
+				#parentanchor = left|vcenter
+				align = left|nobaseline
+				autoresize = yes
+				margin_bottom = 6
+			}
+            divider_clean = {
+				size = { 180 1 }
+			}
+			hbox = {
+				minimumsize = { -1 6 }
+			}
+			hbox = {
+				using = set_level_bar_background
+				size = { @panel_width_half_minus_10 32 }
+				maximumsize = { @panel_width_half_minus_10 32 }
+						# literally just a regular button in the flowcontainer
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_very_low.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tono_government_spending').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tono_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_no_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_low.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tolow_government_spending').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tolow_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_low_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_medium.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tomoderate_government_spending').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tomoderate_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_moderate_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_high.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tohigh_government_spending').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tohigh_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_high_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_very_high.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tovery_high_government_spending').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tovery_high_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_very_high_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+			}
+		}
+	}
+
+	type bem_spending_level = widget {
+		size = { 30 28 }
+		button = {
+			size = { 30 28 }
+			
+			parentanchor = hcenter|top
+			block "button_texture" {
+				texture = "gfx/interface/budget/budget_set_high.dds"
+			}
+			block "tooltip" {
+				tooltip = "[GetScriptedGui('bem_tono_government_spending').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+			}
+			block "click" {
+				onclick = "[GetScriptedGui('bem_tono_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+			}
+		}
+
+		### SELECTED FRAME
+		widget = {
+			block "selected_frame_size" {
+				size = { 37 35 }
+			}
+			parentanchor = center
+
+			block "is_selected_visibility" {
+				visible = "[GetScriptedGui('bem_no_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+			}
+			
+			state = {
+				name = _show
+				duration = 0.35
+				alpha = 1
+			}
+			state = {
+				name = _hide
+				duration = 0
+				alpha = 0
+			}
+
+			icon = {
+				using = highlighted_square_selection
+			}
+		}
+				### SELECTED (icon)
+		button = {
+			block "button_texture" {}
+
+			block "is_selected_visibility" {}
+
+			block "selected_texture_size" {
+				size = { 28 28 }
+			}
+
+			parentanchor = center
+		}
+	}
+
+	type bem_set_level_bar_item = widget {
+		block "size" {
+			size = { 35 32 }
+		}
+
+		using = tooltip_above
+
+
+		### BUTTON
+		button = {
+			parentanchor = center
+
+			block "button_size" {
+				size = { 35 32 }
+			}
+			#onclick = "[ScriptedGui.Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).End )]"
+
+			block "click" {}
+			#block "is_clickable_alpha" {}
+
+			button = {
+				block "button_texture" {}
+				block "click" {}
+				#onclick = "[ScriptedGui.Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).End )]"
+
+				block "texture_size" {
+					size = { 24 24 }
+				}
+
+				parentanchor = center
+			}
+		}
+
+		### SELECTED FRAME
+		widget = {
+			block "selected_frame_size" {
+				size = { 37 35 }
+			}
+			parentanchor = center
+
+			block "is_selected_visibility" {}
+			
+			state = {
+				name = _show
+				duration = 0.35
+				alpha = 1
+			}
+			state = {
+				name = _hide
+				duration = 0
+				alpha = 0
+			}
+
+			icon = {
+				using = highlighted_square_selection
+			}
+		}
+		
+		### SELECTED (icon)
+		button = {
+			block "button_texture" {}
+
+			block "is_selected_visibility" {}
+
+			block "selected_texture_size" {
+				size = { 28 28 }
+			}
+
+			parentanchor = center
+		}
+	}
+
+
+
+	type state_panel_buildings_content = flowcontainer {
+		ignoreinvisible = yes
+		direction = vertical
+		using = default_list_position
+		spacing = 10
+
+
+		default_header_2texts = {
+			visible = no
+			blockoverride "text1" {
+				text = "BUILDINGS"
+			}
+		}
+
+		default_header = {
+			blockoverride "text" {
+				text = "BEM_STATE_CONSTRUCTION"
+			}
+		}
+
+
+		flowcontainer = {
+			direction = horizontal
+			bem_building_queue = {}
+			
+			flowcontainer = {
+				direction = vertical
+				flowcontainer = {
+					direction = vertical
+					layoutpolicy_horizontal = expanding
+					hbox = {
+						minimumsize = { @panel_width_plus_14_half 80 }
+						margin = { 10 6 }
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+
+						spacing = 5
+						visible = "[StatesPanel.GetState.MakeScope.Var('bem_queue_ptr_0').IsSet]"
+						datacontext = "[StatesPanel.AccessState.AccessBuilding( GetBuildingType('building_government_administration').GetKey )]"
+						bem_govpms = {}
+
+						expand = {}
+						hbox = {
+							margin = { 0 8 }
+							layoutpolicy_horizontal = expanding
+						}
+						expand = {}
+					}
+				}
+				
+			}
+		}
 
 		default_header = {
 			blockoverride "text" {

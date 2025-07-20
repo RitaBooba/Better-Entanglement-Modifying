@@ -12,3 +12,148 @@ bem_build_building = {
 		}
 	}
 }
+
+bem_tono_government_spending = {
+	scope = state
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_no_spending
+		}
+	}
+}
+
+bem_tolow_government_spending = {
+	scope = state
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_low_spending
+		}
+	}
+}
+
+bem_tomoderate_government_spending = {
+	scope = state
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_moderate_spending
+		}
+	}
+}
+
+bem_tohigh_government_spending = {
+	scope = state
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_high_spending
+		}
+	}
+}
+
+bem_tovery_high_government_spending = {
+	scope = state
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_very_high_spending
+		}
+	}
+}
+
+bem_no_government_spending = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_no_spending
+		}
+	}
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_no_spending
+		}
+	}
+}
+
+bem_low_government_spending = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_low_spending
+		}
+	}
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_low_spending
+		}
+	}
+}
+
+bem_moderate_government_spending = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_moderate_spending
+		}
+	}
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_moderate_spending
+		}
+	}
+}
+
+bem_high_government_spending = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_high_spending
+		}
+	}
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_high_spending
+		}
+	}
+}
+
+bem_very_high_government_spending = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_very_high_spending
+		}
+	}
+
+	effect = {
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_bem_very_high_spending
+		}
+	}
+}
