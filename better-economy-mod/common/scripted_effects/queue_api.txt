@@ -22,7 +22,7 @@ add_to_queue = {
 		}
 		set_variable = {
 			name = $name$_ptr
-			value = 0
+			value = 2
 		}
 	}
 	add_to_dict = {
