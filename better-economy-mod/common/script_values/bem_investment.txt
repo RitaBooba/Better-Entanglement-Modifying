@@ -1,0 +1,23 @@
+bem_country_total_urbanization = {
+	value = 0
+	every_scope_state = {
+		add = total_urbanization
+	}
+}
+
+# Share of the country's urbanization in the state
+bem_state_urbanization_share = {
+	value = total_urbanization
+	divide = owner.bem_country_total_urbanization
+}
+
+bem_country_total_investment_levels = {
+	value = investment_pool
+	divide = 1000000
+}
+
+bem_state_investment_levels = {
+	value = owner.bem_country_total_investment_levels
+	multiply = bem_state_urbanization_share
+	ceiling = yes
+}

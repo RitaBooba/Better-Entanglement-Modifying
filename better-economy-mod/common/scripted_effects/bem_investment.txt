@@ -1,0 +1,15 @@
+bem_private_investment_oa = {
+	create_building = {
+		building = building_bem_private_construction_investor
+		level = bem_state_investment_levels
+		reserves = 1
+	}
+	owner = {
+		add_investment_pool = {
+			value = {
+				value = bem_state_investment_levels
+				multiply = -20000
+			}
+		}
+	}
+}

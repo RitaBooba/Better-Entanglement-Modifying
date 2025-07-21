@@ -3,8 +3,12 @@ pm_bem_private_investment = {
 
 	building_modifiers = {
 		level_scaled = {
-			#building_employment_clerks_add = 1
             goods_input_services_add = 500
+			goods_output_dye_add = 10
+			#goods_output_gold_add = 100
+		}
+		unscaled = {
+			building_employment_clerks_add = 1
 		}
 	}
 }

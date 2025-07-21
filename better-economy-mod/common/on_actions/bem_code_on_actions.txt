@@ -53,7 +53,11 @@ on_monthly_pulse_state = {
 			}
 			save_scope_value_as = {
 				name = govadlv
-				value = level
+				value = {
+					value = level
+					divide = 3
+					ceiling = yes
+				}
 			}
 		}
 
@@ -61,6 +65,7 @@ on_monthly_pulse_state = {
 			building = building_government_administration
 			level = scope:govadlv
 		}
+		bem_private_investment_oa = yes
 
 	}
 }
