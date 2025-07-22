@@ -5,6 +5,12 @@
 pm_bem_low_spending = {
 	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
 
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = -5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_services_add = 20
@@ -19,6 +25,12 @@ pm_bem_low_spending = {
 
 pm_bem_moderate_spending = {
 	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = -10
+		}
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -35,6 +47,12 @@ pm_bem_moderate_spending = {
 pm_bem_high_spending = {
 	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
 
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = -15
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_services_add = 150
@@ -49,6 +67,12 @@ pm_bem_high_spending = {
 
 pm_bem_very_high_spending = {
 	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = -20
+		}
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
