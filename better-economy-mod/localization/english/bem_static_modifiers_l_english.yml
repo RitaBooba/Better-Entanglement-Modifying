@@ -12,3 +12,5 @@
   lumpen_no_icon: "Lumpen"
   state_lumpen_dependent_wage_mult: "$lumpen$ Dependent Income"
   state_lumpen_dependent_wage_mult_desc: "Multiplier on $lumpen$ dependent income."
+
+  assets: "Financial Assets"
