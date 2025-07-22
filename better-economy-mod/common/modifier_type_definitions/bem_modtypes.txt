@@ -1,3 +1,15 @@
+goods_input_assets_add = {
+	decimals=0
+	color=bad
+	percent=no
+}
+
+goods_output_assets_add = {
+	decimals=0
+	color=bad
+	percent=no
+}
+
 building_employment_peasants_mult = {
 	decimals=0
 	color=neutral

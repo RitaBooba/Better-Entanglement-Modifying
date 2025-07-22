@@ -39,6 +39,17 @@ lead = {
 	traded_quantity = 5 # 200
 }
 
+asset = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 100
+	category = luxury
+
+	prestige_factor = 15
+	local = yes
+
+	consumption_tax_cost = 1000
+}
+
 
 wood = {
 	texture = "gfx/interface/icons/goods_icons/wood.dds"
