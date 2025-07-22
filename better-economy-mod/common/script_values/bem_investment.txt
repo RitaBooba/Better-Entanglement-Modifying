@@ -23,6 +23,11 @@ bem_state_investment_levels = {
 }
 
 bem_investment_weekly_loss = {
-	value = bem_state_investment_levels
+	value = b:building_bem_private_construction_investor.level
 	multiply = -20000
+}
+
+bem_building_level_diff = {
+	value = b:building_bem_private_construction_investor.level
+	subtract = bem_state_investment_levels
 }

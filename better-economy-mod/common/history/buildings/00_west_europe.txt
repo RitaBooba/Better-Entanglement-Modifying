@@ -1863,7 +1863,7 @@
 					building={
 						type="building_financial_district"
 						country="c:GBR"
-						levels=2
+						levels=22
 						region="STATE_MIDLANDS"
 					}
 				}
