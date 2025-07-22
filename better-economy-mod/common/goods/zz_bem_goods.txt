@@ -39,7 +39,7 @@ lead = {
 	traded_quantity = 5 # 200
 }
 
-asset = {
+assets = {
 	texture = "gfx/interface/icons/goods_icons/services.dds"
 	cost = 100
 	category = luxury
