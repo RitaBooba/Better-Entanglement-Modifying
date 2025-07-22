@@ -22,6 +22,7 @@ types building_panels
 {
 	type bem_building_queue = flowcontainer {
 		direction = vertical
+		minimumsize = { @panel_width_plus_14_half 80 }
 		flowcontainer = {
 			direction = vertical
 			layoutpolicy_horizontal = expanding
@@ -432,7 +433,7 @@ types building_panels
 						layoutpolicy_vertical = expanding
 
 						spacing = 5
-						visible = "[StatesPanel.GetState.MakeScope.Var('bem_queue_ptr_0').IsSet]"
+						#visible = "[StatesPanel.GetState.MakeScope.Var('bem_queue_ptr_0').IsSet]"
 						datacontext = "[StatesPanel.AccessState.AccessBuilding( GetBuildingType('building_government_administration').GetKey )]"
 						bem_govpms = {}
 
