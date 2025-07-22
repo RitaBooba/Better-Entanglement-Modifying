@@ -21,3 +21,8 @@ bem_state_investment_levels = {
 	multiply = bem_state_urbanization_share
 	ceiling = yes
 }
+
+bem_investment_weekly_loss = {
+	value = bem_state_investment_levels
+	multiply = -20000
+}

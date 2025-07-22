@@ -5,11 +5,6 @@ bem_private_investment_oa = {
 		reserves = 1
 	}
 	owner = {
-		add_investment_pool = {
-			value = {
-				value = bem_state_investment_levels
-				multiply = -20000
-			}
-		}
+		add_investment_pool = prev.bem_investment_weekly_loss
 	}
 }
