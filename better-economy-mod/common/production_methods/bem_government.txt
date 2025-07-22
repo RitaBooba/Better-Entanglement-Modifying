@@ -13,7 +13,7 @@ pm_bem_low_spending = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_services_add = 20
+			goods_input_assets_add = 20
 		}
 
 		level_scaled = {
@@ -34,7 +34,7 @@ pm_bem_moderate_spending = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_services_add = 60
+			goods_input_assets_add = 60
 		}
 
 		level_scaled = {
@@ -55,7 +55,7 @@ pm_bem_high_spending = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_services_add = 150
+			goods_input_assets_add = 150
 		}
 
 		level_scaled = {
@@ -76,7 +76,7 @@ pm_bem_very_high_spending = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_services_add = 300
+			goods_input_assets_add = 300
 		}
 
 		level_scaled = {
