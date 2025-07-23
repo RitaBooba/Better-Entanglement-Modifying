@@ -114,7 +114,7 @@
 	MAX_WAGE_STEP_CHANGE = 0.3					# Wage rates can change at most this much each week
 	SUBSIDIES_MIN_GAIN = 0						# If a building is subsidized, it will always collect enough subsidies to ensure at least this weekly cash reserve growth
 	DEFAULT_MIN_HIRING_RATE = 0.01 				# Default weekly min hiring limit applied in a building per profession as a ratio of full employment
-	DEFAULT_MAX_HIRING_RATE = 0.1 				# Default weekly max hiring limit applied in a building per profession as a ratio of full employment
+	DEFAULT_MAX_HIRING_RATE = 0.2 				# Default weekly max hiring limit applied in a building per profession as a ratio of full employment
 	HIRING_RANGE_WEEKLY_CHANGE = 0.01 			# Weekly hiring range of a building is decreased or increased by this based on whether it is failing to hire at its current rate or not
 	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.1		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
 	MINIMUM_EMPLOYEES = 10						# If a building has fewer employees than this, it will always attempt to hire
@@ -138,7 +138,7 @@
 	BUILDING_MAX_EMPLOYMENT_FRACTION_TO_RAISE_WAGES = 0.5 # If the employment fraction of a building is above this, don't raise wages just to try and snipe employees from other buildings
 	BUILDING_WEEKS_BETWEEN_PAY_CHANGES = 0		# Cooldown between changes in pay, so buildings don't overcompensate for a temporary change in circumstances. If the building is unprofitable it uses BUILDING_WEEKS_BETWEEN_PAY_CHANGES_WHEN_UNPROFITABLE instead.
 	BUILDING_WEEKS_BETWEEN_PAY_CHANGES_WHEN_UNPROFITABLE = 0 # Cooldown between changes in pay, so buildings don't overcompensate for a temporary change in circumstances. Only used when unprofitable.
-	MIN_RAISE_TO_HIRE = 0.10					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
+	MIN_RAISE_TO_HIRE = 0.12					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
 	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
 	EMPLOYMENT_RESOURCE_DEPLETE_CHANCE = 0.005	# Multiplied by number of fully employed levels of the building
 	RESOURCE_DISCOVER_MIN_FRACTION = 0.2		# Min fraction of resources that will be discovered for each successful roll
@@ -313,4 +313,22 @@
 	PRIVATIZATION_DISCOUNT_MONOPOLY = 0.2				# The cost of privatizing a building is multiplied by this for companies with a monopoly on that building type
 
 	PRESTIGE_GOODS_INPUT_THROUGHPUT_BONUS = 0.2			# Bonus to throughput, scaled against proportion of input goods base value that is prestige goods
+}
+NPops = {
+	JOB_SATISFACTION_BASE = -160
+	JOB_SATISFACTION_FOR_NEWLY_HIRED = 1000
+	JOB_SATISFACTION_PER_SOL_ABOVE_EXPECTED_SOL = 3
+	JOB_SATISFACTION_PER_SOL_ABOVE_STATE_STRATA_SOL = 2
+	JOB_SATISFACTION_PER_SOL_ABOVE_COUNTRY_STRATA_SOL = 1
+	JOB_SATISFACTION_PER_PERCENT_WAGE_RATE_ABOVE_NORMAL = 1	
+	JOB_SATISFACTION_FROM_CAN_AFFORD_EXPENSES = 600
+	JOB_SATISFACTION_FROM_CANNOT_AFFORD_EXPENSES = -100
+	JOB_SATISFACTION_PER_PERCENT_HIGHER_SOL_QUALIFICATION = -2 
+	JOB_SATISFACTION_FROM_EMPLOYMENT = 50
+	JOB_SATISFACTION_DIVIDENDS_MAX_MULT = 5	
+	JOB_SATISFACTION_DIVIDENDS_BASE = 50
+	JOB_SATISFACTION_LOSSES_MIN_MULT = -5
+	JOB_SATISFACTION_LOSSES_BASE = 50
+	JOB_SATISFACTION_GOVERNMENT = 70
+	NUM_WEALTH_LEVELS = 200
 }
