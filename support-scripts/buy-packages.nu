@@ -12,7 +12,11 @@ def polstrength [wealth] {
     | math floor
 }
 
-def popneed_basic_food [wealth] {
+def total_expenditures [wealth] {
+    1.085 ** (50 + 1.25 * $wealth) + 75
+} 
+
+def weight_basic_food [wealth] {
     if $wealth > 0 and $wealth <= 18 {
         5 * $wealth + 90
     } else if $wealth > 18 and $wealth <= 25 {
@@ -22,25 +26,22 @@ def popneed_basic_food [wealth] {
     } else {
         0
     }
-    | math round
 }
 
-def popneed_crude_items [wealth] {
+def weight_crude_items [wealth] {
     if $wealth > 4 and $wealth <= 14 {
         -1.5 * (($wealth - 9) ** 2) + 50
     } else {
         0
     }
-    | math round
 }
 
-def popneed_simple_clothing [wealth] {
+def weight_simple_clothing [wealth] {
     if ($wealth > 0 and $wealth <= 14) {
         -0.33 * (($wealth - 8) ** 2) + 50
     } else {
         0
     }
-    | math round
 }
 
 def popneed_heating [wealth] {
@@ -51,10 +52,9 @@ def popneed_heating [wealth] {
     } else {
         0
     }
-    | math round
 }
 
-def popneed_household_items [wealth] {
+def weight_household_items [wealth] {
     if ($wealth > 10 and $wealth < 30) {
         12 * $wealth - 113
     } else if ($wealth >= 30 and $wealth < 45) {
@@ -62,10 +62,9 @@ def popneed_household_items [wealth] {
     } else {
         0
     }
-    | math round
 }
 
-def popneed_standard_clothing [wealth] {
+def weight_standard_clothing [wealth] {
     if ($wealth > 10 and $wealth < 24) {
         12 * $wealth - 113
     } else if ($wealth >= 24 and $wealth < 39) {
@@ -73,16 +72,16 @@ def popneed_standard_clothing [wealth] {
     } else {
         0
     }
-    | math round
 }
 
-def popneed_services [wealth] {
-    if ($wealth >= 10) {
-        (1.158 ** $wealth) + 20
+def weight_services [wealth] {
+    if ($wealth > 10 and $wealth < 30) {
+        12 * $wealth - 113
+    } else if ($wealth >= 30 and $wealth < 45) {
+        247
     } else {
         0
     }
-    | math round
 }
 
 def popneed_intoxicants [wealth] {
@@ -93,79 +92,107 @@ def popneed_intoxicants [wealth] {
     } else {
         0
     }
-    | math round
 }
 
-def popneed_luxury_drinks [wealth] {
+def weight_luxury_drinks [wealth] {
     if ($wealth >= 15) {
         (1.145 ** $wealth) + 20
     } else {
         0
     }
-    | math round
 }
 
-def popneed_free_movement [wealth] {
+def weight_free_movement [wealth] {
     if ($wealth >= 10) {
         1.145 ** $wealth
     } else {
         0
     }
-    | math round
 }
 
-def popneed_communication [wealth] {
+def weight_communication [wealth] {
     if ($wealth >= 20) {
         (1.145 ** $wealth) + 20
     } else {
         0
     }
-    | math round
 }
 
-def popneed_luxury_food [wealth] {
+def weight_luxury_food [wealth] {
     if ($wealth >= 20) {
         (1.145 ** $wealth) + 20
     } else {
         0
     }
-    | math round
 }
 
-def popneed_luxury_items [wealth] {
+def weight_luxury_items [wealth] {
     if ($wealth >= 15) {
         (1.165 ** $wealth) + 20
     } else {
         0
     }
-    | math round
 }
 
-def popneed_leisure [wealth] {
+def weight_leisure [wealth] {
     if ($wealth >= 20) {
         (1.165 ** $wealth) + 20
     } else {
         0
     }
-    | math round
+}
+
+def weight_financial_services [wealth] {
+    if ($wealth >= 30) {
+        (1.25 ** ($wealth - 20)) + 50
+    } else {
+        0
+    }
+}
+
+def weight_sum [wealth] {(
+    (weight_basic_food $wealth) + 
+    (weight_crude_items $wealth) +
+    (weight_simple_clothing $wealth) +
+    #(weight_heating $wealth) +
+    (weight_household_items $wealth) +
+    (weight_standard_clothing $wealth) +
+    (weight_services $wealth) +
+    #(weight_intoxicants $wealth) +
+    (weight_luxury_drinks $wealth) +
+    (weight_free_movement $wealth) +
+    (weight_communication $wealth) +
+    (weight_luxury_food $wealth) +
+    (weight_luxury_items $wealth) +
+    (weight_leisure $wealth) +
+    (weight_financial_services $wealth)
+)}
+
+def real_expenditures [weight wealth] {
+    ($weight / (weight_sum $wealth)) * (total_expenditures $wealth) | math round
+}
+
+def buy_package [weight wealth] {
+    $"(real_expenditures $weight $wealth) # (((real_expenditures $weight $wealth) / (total_expenditures $wealth)) * 100 | math round -p 2)%"
 }
 
 def goods [wealth] {
     {
-        popneed_basic_food: (popneed_basic_food $wealth)
-        popneed_crude_items: (popneed_crude_items $wealth)
-        popneed_simple_clothing: (popneed_simple_clothing $wealth)
-        popneed_heating: (popneed_heating $wealth)
-        popneed_household_items: (popneed_household_items $wealth)
-        popneed_standard_clothing: (popneed_standard_clothing $wealth)
-        popneed_services: (popneed_services $wealth)
-        popneed_intoxicants: (popneed_intoxicants $wealth)
-        popneed_luxury_drinks: (popneed_luxury_drinks $wealth)
-        popneed_free_movement: (popneed_free_movement $wealth)
-        popneed_communication: (popneed_communication $wealth)
-        popneed_luxury_food: (popneed_luxury_food $wealth)
-        popneed_luxury_items: (popneed_luxury_items $wealth)
-        popneed_leisure: (popneed_leisure $wealth)
+    popneed_basic_food: (buy_package (weight_basic_food $wealth) $wealth)
+    popneed_crude_items: (buy_package (weight_crude_items $wealth) $wealth)
+    popneed_simple_clothing: (buy_package (weight_simple_clothing $wealth) $wealth)
+    popneed_heating: $"(popneed_heating $wealth) # unweighted"
+    popneed_household_items: (buy_package (weight_household_items $wealth) $wealth)
+    popneed_standard_clothing: (buy_package (weight_standard_clothing $wealth) $wealth)
+    popneed_services: (buy_package (weight_services $wealth) $wealth)
+    popneed_intoxicants: $"(popneed_intoxicants $wealth) # unweighted"
+    popneed_luxury_drinks: (buy_package (weight_luxury_drinks $wealth) $wealth)
+    popneed_free_movement: (buy_package (weight_free_movement $wealth) $wealth)
+    popneed_communication: (buy_package (weight_communication $wealth) $wealth)
+    popneed_luxury_food: (buy_package (weight_luxury_food $wealth) $wealth)
+    popneed_luxury_items: (buy_package (weight_luxury_items $wealth) $wealth)
+    popneed_leisure: (buy_package (weight_leisure $wealth) $wealth)
+    popneed_financial_services: (buy_package (weight_financial_services $wealth) $wealth)
     }
 }
 
@@ -180,5 +207,5 @@ def 'to pdxscript' []: record -> string {
 | str join "\n"
 }
 
-1..99 | reduce --fold {} {|i| insert $"wealth_($i)" {political_strength: (polstrength $i), goods: (goods $i)}} | to pdxscript 
-| save -f "../better-economy-mod/common/buy_packages/00_buy_packages.txt"
+1..99 | reduce --fold {} {|i| insert $"wealth_($i)" {political_strength: (polstrength $i), goods: (goods $i)}}
+| to pdxscript | save -f "../better-economy-mod/common/buy_packages/zz_bem_buy_packages.txt"
