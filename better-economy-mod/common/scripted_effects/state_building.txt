@@ -98,3 +98,76 @@ bem_save_state_building_page_1_DBG = {
 		p4 = 3
 	}
 }
+
+bem_origin_state_building = {
+	if = {
+		limit = {
+			has_variable = bem_queue_ptr_0
+			NOT = {
+				has_variable = bem_queue_ctr
+			}
+		}
+		set_variable = {
+			name = bem_queue_ctr
+			value = bem_months_to_completion_max
+		}
+		round_variable = {
+			name = bem_queue_ctr
+			nearest = 1
+		}
+	}
+
+}
+
+bem_do_state_building = {
+	bem_origin_state_building = yes
+	if = {
+		limit = {
+			has_variable = bem_queue_ctr
+		}
+		change_variable = {
+			name = bem_queue_ctr
+			subtract = 1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = bem_queue_ctr
+			var:bem_queue_ctr <= 0
+		}
+		var:bem_queue_ptr_0 = {
+			save_scope_as = target_building
+		}
+		random_scope_building = {
+			limit = {
+				type = scope:target_building
+			}
+			save_scope_value_as = {
+				name = prevlev
+				value = {
+					value = level
+					multiply = country_ownership_fraction
+					round = yes
+				}
+			}
+		}
+		save_scope_value_as = {
+			name = level
+			value = {
+				value = scope:prevlev
+				add = 1
+			}
+		}
+		remove_variable = bem_queue_ptr_0
+		remove_variable = bem_queue_ptr_1
+		remove_variable = bem_queue_ptr_2
+		remove_variable = bem_queue_ptr_3
+		remove_variable = bem_queue_ctr
+		bem_buildagen = yes
+		pop_from_queue = {
+			name = bem_state_building_queue
+		}
+		bem_save_state_building_page_1_DBG = yes
+		bem_origin_state_building = yes
+	}
+}

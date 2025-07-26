@@ -66,6 +66,6 @@ on_monthly_pulse_state = {
 			level = scope:govadlv
 		}
 		bem_private_investment_oa = yes
-
+		bem_do_state_building = yes
 	}
 }

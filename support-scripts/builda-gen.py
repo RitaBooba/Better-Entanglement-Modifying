@@ -29,13 +29,7 @@ def write_building_script(buildings):
     with open('builda-gen.txt', 'w', encoding='utf-8') as f:
         for building in sorted(buildings):
             f.write(f"""
-if = {{ limit = {{ scope:target_building = bt:building_{building} }}
-    create_building = {{
-        building = building_{building}
-        level = scope:level
-    }}
-}}
-    """)
+    bem_buildagen_subp = {{ building = building_{building} }}""")
 
 
 if __name__ == "__main__":

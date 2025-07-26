@@ -23,6 +23,19 @@ types building_panels
 	type bem_building_queue = flowcontainer {
 		direction = vertical
 		minimumsize = { @panel_width_plus_14_half 80 }
+
+		textbox = {
+			#using = fontsize_small
+			visible = "[StatesPanel.GetState.MakeScope.Var('bem_queue_ptr_0').IsSet]"
+			text = "bem_completing_loc"
+			tooltip = "bem_conpow_tt"
+			parentanchor = hcenter
+			align = nobaseline
+			layoutpolicy_horizontal = expanding
+			autoresize = yes
+			margin_left = 10
+		}
+		
 		flowcontainer = {
 			direction = vertical
 			layoutpolicy_horizontal = expanding
@@ -265,6 +278,111 @@ types building_panels
 		}
 	}
 
+	type bem_conpms = container {
+		minimumsize = { @panel_width_half_minus_10 50 }
+
+		flowcontainer = {
+
+			parentanchor = vcenter
+			direction = vertical
+			margin_top = 3
+			margin_bottom = 3
+		}
+		vbox = {
+			layoutpolicy_vertical = expanding
+			textbox = {
+				using = fontsize_medium
+				raw_text = "Construction Infrastructure"
+				#parentanchor = left|vcenter
+				align = left|nobaseline
+				autoresize = yes
+				margin_bottom = 6
+			}
+            divider_clean = {
+				size = { 180 1 }
+			}
+			hbox = {
+				minimumsize = { -1 6 }
+			}
+			hbox = {
+				using = set_level_bar_background
+				size = { @panel_width_half_minus_10 32 }
+				maximumsize = { @panel_width_half_minus_10 32 }
+						# literally just a regular button in the flowcontainer
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_very_low.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tol0_con').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tol0_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_l0_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_low.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tol1_con').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tol1_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_l1_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_medium.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tol2_con').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tol2_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_l2_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_high.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tol3_con').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tol3_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_l3_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+				bem_spending_level = {
+					blockoverride "button_texture" {
+						texture = "gfx/interface/budget/budget_set_very_high.dds"
+					}
+					blockoverride "tooltip" {
+						tooltip = "[GetScriptedGui('bem_tol4_con').ExecuteTooltip( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "click" {
+						onclick = "[GetScriptedGui('bem_tol4_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+					blockoverride "is_selected_visibility" {
+						visible = "[GetScriptedGui('bem_l4_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+					}
+				}
+			}
+		}
+	}
+
 	type bem_spending_level = widget {
 		size = { 30 28 }
 		button = {
@@ -394,8 +512,6 @@ types building_panels
 		}
 	}
 
-
-
 	type state_panel_buildings_content = flowcontainer {
 		ignoreinvisible = yes
 		direction = vertical
@@ -419,6 +535,8 @@ types building_panels
 
 		flowcontainer = {
 			direction = horizontal
+
+
 			bem_building_queue = {}
 			
 			flowcontainer = {
@@ -435,13 +553,21 @@ types building_panels
 						spacing = 5
 						#visible = "[StatesPanel.GetState.MakeScope.Var('bem_queue_ptr_0').IsSet]"
 						datacontext = "[StatesPanel.AccessState.AccessBuilding( GetBuildingType('building_government_administration').GetKey )]"
-						bem_govpms = {}
+						vbox = {
+							bem_govpms = {}
+							hbox = {
+								minimumsize = { -1 16 }
+								maximumsize = { -1 16 }
+							}
+							bem_conpms = {}
+						}
 
 						expand = {}
 						hbox = {
 							margin = { 0 8 }
 							layoutpolicy_horizontal = expanding
 						}
+
 						expand = {}
 					}
 				}

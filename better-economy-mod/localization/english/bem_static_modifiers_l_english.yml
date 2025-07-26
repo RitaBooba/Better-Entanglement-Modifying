@@ -22,3 +22,5 @@
   goods_input_services_add_desc: "The amount of @services! Services consumed by buildings"
 
   assets: "Financial Assets"
+  bem_completing_loc: "#tooltippable Completes in [StatesPanel.GetState.MakeScope.ScriptValue('bem_number_months_left')|v0] Month(s).\nWill result in [StatesPanel.GetState.MakeScope.ScriptValue('bem_number_produced_max')|v0] Level(s).#!"
+  bem_conpow_tt: "[StatesPanel.GetState.GetModifier.GetFullEntryDescFor('state_construction_power_add')]\nFrom number of buildings: [StatesPanel.GetState.MakeScope.ScriptValue('bem_fromnumbuls')|v0]"

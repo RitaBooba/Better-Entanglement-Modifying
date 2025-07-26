@@ -13,6 +13,119 @@ bem_build_building = {
 	}
 }
 
+
+# construction spending
+
+bem_tol0_con = {
+	scope = state
+	effect = {
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_no_construction_infrastructure
+		}
+	}
+}
+
+bem_tol1_con = {
+	scope = state
+	effect = {
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_basic_construction_infrastructure
+		}
+	}
+}
+
+bem_tol2_con = {
+	scope = state
+	effect = {
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_construction_sites
+		}
+	}
+}
+
+bem_tol3_con = {
+	scope = state
+	effect = {
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_organized_works
+		}
+	}
+}
+
+
+bem_tol4_con = {
+	scope = state
+	effect = {
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_industrial_sites
+		}
+	}
+}
+
+bem_l0_con = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_no_construction_infrastructure
+		}
+	}
+}
+
+bem_l1_con = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_basic_construction_infrastructure
+		}
+	}
+}
+
+bem_l2_con = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_construction_sites
+		}
+	}
+}
+
+bem_l3_con = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_organized_works
+		}
+	}
+}
+
+bem_l4_con = {
+	scope = state
+
+	is_valid = {
+		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_industrial_sites
+		}
+	}
+}
+
+
+
+# government spending
+
 bem_tono_government_spending = {
 	scope = state
 
