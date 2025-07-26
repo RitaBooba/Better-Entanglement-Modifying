@@ -68,17 +68,19 @@ remove_index_from_queue = {
 		value = 0
 	}
 	ordered_in_list = {
-		limit = {
-			NOT = {
-				scope:counter = $n$
+		if = {
+			limit = {
+				NOT = {
+					scope:counter = $n$
+				}
 			}
+			variable = $name$
+			order_by = 1
+			prev = { add_to_variable_list = {
+				name = com_queue_api_temp
+				target = prev
+			} }	
 		}
-		variable = $name$
-		order_by = 1
-		prev = { add_to_variable_list = {
-			name = com_queue_api_temp
-			target = prev
-		} }
 		save_scope_value_as = {
 			name = counter
 			value = {
