@@ -551,7 +551,6 @@ pm_bem_construction_sites = {
 		workforce_scaled = {
 			goods_input_wood_add = 150
 			goods_input_tools_add = 70
-			goods_input_explosives_add = 5
 			goods_output_assets_add = 65
 		}
 
