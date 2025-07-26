@@ -21,6 +21,21 @@ on_monthly_pulse_state = {
 	effect = {
 		if = {
 			limit = {
+				owner = {
+					is_player = yes
+					NOT = {
+						has_modifier = bem_more_private_construction
+					}
+				}
+			}
+			owner = {
+				add_modifier = {
+					name = bem_more_private_construction
+				}
+			}
+		}
+		if = {
+			limit = {
 				has_modifier = bem_urbanization_boost
 			}
 			remove_modifier = bem_urbanization_boost

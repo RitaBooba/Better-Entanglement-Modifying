@@ -1,4 +1,4 @@
-# override############ GOVERNMENT BUILDINGS
+############ GOVERNMENT BUILDINGS
 
 building_construction_sector = {
 	building_group = bg_construction
