@@ -25,6 +25,12 @@ bem_remove_queue = {
 			name = bem_state_building_queue
 			n = scope:index
 		}
+		if = {
+			limit = {
+				scope:index = 0
+			}
+			remove_variable = bem_queue_ctr
+		}
 		remove_variable = bem_queue_ptr_0
 		remove_variable = bem_queue_ptr_1
 		remove_variable = bem_queue_ptr_2
