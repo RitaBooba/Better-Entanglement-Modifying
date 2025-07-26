@@ -34,20 +34,7 @@ bem_kvp_as_val = {
 
 bem_current_conpow = {
 	value = modifier:state_construction_power_add
-	if = {
-		limit = {
-			has_variable = bem_queue_ptr_0
-		}
-		every_scope_building = {
-			limit = {
-				type = prev.var:bem_queue_ptr_0
-			}
-			add = {
-				value = 2.5
-				multiply = level
-			}
-		}
-	}
+	add = bem_fromnumbuls
 }
 
 bem_fromnumbuls = {
@@ -66,6 +53,7 @@ bem_fromnumbuls = {
 			}
 		}
 	}
+	max = 15
 }
 
 bem_months_to_completion_max_r = {
@@ -101,5 +89,5 @@ bem_number_produced_max_r = {
 bem_number_produced_max = {
 	value = bem_number_produced_max_r
 	min = 1
-	max = 10
+	max = 20
 }
