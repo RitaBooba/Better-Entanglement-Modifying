@@ -70,6 +70,7 @@ remove_index_from_queue = {
 	ordered_in_list = {
 		variable = $name$
 		order_by = 1
+		min = 0
 		if = {
 			limit = {
 				NOT = {
