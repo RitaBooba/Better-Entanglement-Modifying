@@ -75,7 +75,6 @@ remove_index_from_queue = {
 		}
 		variable = $name$
 		order_by = 1
-		min = 1
 		prev = { add_to_variable_list = {
 			name = com_queue_api_temp
 			target = prev
