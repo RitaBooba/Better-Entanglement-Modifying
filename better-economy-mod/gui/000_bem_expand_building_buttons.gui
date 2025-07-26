@@ -65,6 +65,14 @@ types building_panels
 						using = paper_bg
 						margin_right = -4
 					}
+					close_button_large = {
+						size = { 28 28 }
+						#parentanchor = right|vcenter
+						onclick = "[GetScriptedGui('bem_remove_queue').Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).AddScope('index', MakeScopeValue('(CFixedPoint)0')).End )]"
+					}
+					hbox = {
+						minimumsize = { 16 -1 }
+					}
 				}
 				expand = {}
 			}
@@ -98,6 +106,14 @@ types building_panels
 							#visible = "[GreaterThan_CFixedPoint(ConstructionQueueElement.GetConstructionSpeed, '(CFixedPoint)0')]"
 						using = paper_bg
 						margin_right = -4
+					}
+					close_button_large = {
+						size = { 28 28 }
+						#parentanchor = right|vcenter
+						onclick = "[GetScriptedGui('bem_remove_queue').Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).AddScope('index', MakeScopeValue('(CFixedPoint)1')).End )]"
+					}
+					hbox = {
+						minimumsize = { 16 -1 }
 					}
 				}
 				expand = {}
@@ -133,6 +149,14 @@ types building_panels
 						using = paper_bg
 						margin_right = -4
 					}
+					close_button_large = {
+						size = { 28 28 }
+						#parentanchor = right|vcenter
+						onclick = "[GetScriptedGui('bem_remove_queue').Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).AddScope('index', MakeScopeValue('(CFixedPoint)2')).End )]"
+					}
+					hbox = {
+						minimumsize = { 16 -1 }
+					}
 				}
 				expand = {}
 			}
@@ -167,8 +191,17 @@ types building_panels
 						using = paper_bg
 						margin_right = -4
 					}
+					close_button_large = {
+						size = { 28 28 }
+						#parentanchor = right|vcenter
+						onclick = "[GetScriptedGui('bem_remove_queue').Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).AddScope('index', MakeScopeValue('(CFixedPoint)3')).End )]"
+					}
+					hbox = {
+						minimumsize = { 16 -1 }
+					}
 				}
 				expand = {}
+
 			}
 		}
 	}
@@ -466,7 +499,7 @@ types building_panels
 				#onclick = "[ScriptedGui.Execute( GuiScope.SetRoot(StatesPanel.GetState.MakeScope ).End )]"
 
 				block "texture_size" {
-					size = { 24 24 }
+					size = { 28 28 }
 				}
 
 				parentanchor = center

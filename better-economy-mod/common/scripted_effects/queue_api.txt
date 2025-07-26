@@ -60,3 +60,41 @@ pop_from_queue = {
 	}
 	clear_variable_list = com_queue_api_temp
 }
+
+remove_index_from_queue = {
+	clear_variable_list = com_queue_api_temp
+	save_scope_value_as = {
+		name = counter
+		value = 0
+	}
+	ordered_in_list = {
+		limit = {
+			NOT = {
+				scope:counter = $n$
+			}
+		}
+		variable = $name$
+		order_by = 1
+		min = 1
+		prev = { add_to_variable_list = {
+			name = com_queue_api_temp
+			target = prev
+		} }
+		save_scope_value_as = {
+			name = counter
+			value = {
+				value = scope:counter
+				add = 1
+			}
+		}
+	}
+	clear_variable_list = $name$
+	every_in_list = {
+		variable = com_queue_api_temp
+		prev = { add_to_variable_list = {
+			name = $name$
+			target = prev
+		} }
+	}
+	clear_variable_list = com_queue_api_temp
+}

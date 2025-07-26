@@ -13,6 +13,26 @@ bem_build_building = {
 	}
 }
 
+bem_remove_queue = {
+	scope = state
+
+	saved_scopes = {
+		index
+	}
+
+	effect = {
+		remove_index_from_queue = {
+			name = bem_state_building_queue
+			n = scope:index
+		}
+		remove_variable = bem_queue_ptr_0
+		remove_variable = bem_queue_ptr_1
+		remove_variable = bem_queue_ptr_2
+		remove_variable = bem_queue_ptr_3
+		bem_save_state_building_page_1_DBG = yes
+	}
+}
+
 
 # construction spending
 
