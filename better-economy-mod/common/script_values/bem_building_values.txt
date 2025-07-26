@@ -35,6 +35,10 @@ bem_kvp_as_val = {
 bem_current_conpow = {
 	value = modifier:state_construction_power_add
 	add = bem_fromnumbuls
+	multiply = {
+		value = 1
+		add = modifier:state_construction_mult
+	}
 }
 
 bem_fromnumbuls = {
