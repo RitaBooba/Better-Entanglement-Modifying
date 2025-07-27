@@ -60,22 +60,17 @@ bem_building_level_diff = {
 }
 
 bem_roi = {
-	value = 0
-	every_scope_building = {
+	value = gdp
+}
+
+bem_rchg_mult = {
+	value = 20
+	divide = bem_economy_heat
+	if = {
 		limit = {
-			level > 0
+			bem_roi_change < 0
 		}
-		add = {
-			value = weekly_profit
-			multiply = private_ownership_fraction
-			divide = level
-		}
-	}
-	divide = {
-		value = 0
-		every_scope_building = {
-			add = level
-		}
+		multiply = 1.5
 	}
 }
 
