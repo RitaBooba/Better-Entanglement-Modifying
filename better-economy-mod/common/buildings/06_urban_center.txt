@@ -18,6 +18,10 @@ building_urban_center = {
 		pmg_bem_urban_infrastructure
 	}
 
+	can_build_private = {
+		always = no
+	}
+
 	buildable = no
 	expandable = no
 	downsizeable = no
@@ -46,7 +50,9 @@ building_arts_academy = {
 		pmg_ownership_building_arts_academy
 		pmg_principle_freedom_of_movement_3
 	}
-
+	can_build_private = {
+		always = no
+	}
 	icon = "gfx/interface/icons/building_icons/building_arts_academy.dds"
 
 	required_construction = construction_cost_medium
@@ -66,7 +72,9 @@ building_power_plant = {
 	unlocking_technologies = {
 		electrical_generation
 	}
-
+	can_build_private = {
+		always = no
+	}
 	production_method_groups = {
 		pmg_base_building_power_plant
 	}

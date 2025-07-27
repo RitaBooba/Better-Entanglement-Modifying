@@ -15,6 +15,9 @@ building_construction_sector = {
 	production_method_groups = {
 		pmg_base_building_construction_sector
 	}
+	can_build_private = {
+		always = no
+	}
 
 	ai_value = 1000 # Construction sector should generally be preferred over other equal-priority spending items
 

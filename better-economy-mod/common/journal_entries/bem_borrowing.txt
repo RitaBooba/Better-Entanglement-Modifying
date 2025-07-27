@@ -37,27 +37,52 @@ je_bem_borrowing = {
 				}
 			}
 
-			scope:journal_entry = {
-				if = {
-					limit = {
-						has_variable = bem_previous_roi
+			if = {
+				limit = {
+					has_variable = bem_previous_roi
+				}
+				set_variable = {
+					name = bem_roi_change
+					value = {
+						value = owner.bem_roi
+						subtract = var:bem_previous_roi
+						divide = owner.bem_roi
 					}
-					set_variable = {
-						name = bem_roi_change
-						value = {
-							value = owner.bem_roi
-							subtract = var:bem_previous_roi
-							divide = owner.bem_roi
-						}
+				}
+			}
+			set_variable = {
+				name = bem_previous_roi
+				value = owner.bem_roi
+			}
+
+			if = {
+				limit ={
+					NOT = {
+						has_variable = bem_economy_heat
 					}
 				}
 				set_variable = {
-					name = bem_previous_roi
-					value = owner.bem_roi
+					name = bem_economy_heat
+					value = 5
+				}
+			}
+
+			if = {
+				limit = {
+					has_variable = bem_previous_roi
+				}
+				change_variable = {
+					name = bem_economy_heat
+					multiply = {
+						value = 1.0
+						add = scope:journal_entry.bem_roi_change
+					}
 				}
 			}
 		}
 	}
+
+	should_be_pinned_by_default = yes
 
 	complete = {
 

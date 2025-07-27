@@ -41,5 +41,5 @@
 
   je_bem_borrowing: "The Economy"
 
-  je_bem_borrowing_reason: "ROI of the Economy: [JournalEntry.GetCountry.MakeScope.ScriptValue('bem_roi')|v0] ([JournalEntry.MakeScope.ScriptValue('bem_roi_change')|v%+=2])\nLast Month: [JournalEntry.MakeScope.ScriptValue('bem_previous_roi')|v0]"
+  je_bem_borrowing_reason: "ROI of the Economy: [JournalEntry.GetCountry.MakeScope.ScriptValue('bem_roi')|v0] ([JournalEntry.GetCountry.MakeScope.ScriptValue('bem_roi_change')|v%+=2])\nLast Month: [JournalEntry.GetCountry.MakeScope.ScriptValue('bem_previous_roi')|v0]\nInvestment Factor: [JournalEntry.GetCountry.MakeScope.ScriptValue('bem_economy_heat')|v3]"
 
