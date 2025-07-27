@@ -10,9 +10,11 @@
   lumpen: "@laborers! Lumpen"
   lumpen_only_icon: "@laborers!"
   lumpen_no_icon: "Lumpen"
+  lumpen_desc: "Chronically unemployed workers, criminals and homeless, who are devoid of class consciousness. They are usually attracted to reactionary movements."
   state_lumpen_dependent_wage_mult: "$lumpen$ Dependent Income"
   state_lumpen_dependent_wage_mult_desc: "Multiplier on $lumpen$ dependent income."
   pmg_bem_gov_services: "Government Service Spending"
+  pmg_bem_urban_infrastructure: "Urban Construction Infrastructure"
   pm_bem_no_spending: "No Spending"
 	pm_bem_low_spending: "Low Spending"
 	pm_bem_moderate_spending: "Moderate Spending"
@@ -32,3 +34,5 @@
   pm_bem_construction_sites: "Construction Sites"
   pm_bem_organized_works: "Organized Works"
   pm_bem_industrial_sites: "Industrial Sites"
+
+  state_construction_power_add_desc: "The amount of @construction! Local Construction produced by a [concept_state]."
