@@ -12,7 +12,7 @@ def polstrength [wealth] {
 }
 
 def total_expenditures [wealth] {
-    1.085 ** (50 + 1.25 * $wealth) + 75
+    1.09 ** (50 + 1.3 * $wealth) + 30
 } 
 
 def weight_basic_food [wealth] {
@@ -95,7 +95,7 @@ def popneed_intoxicants [wealth] {
 
 def weight_luxury_drinks [wealth] {
     if ($wealth >= 15) {
-        (1.145 ** $wealth) + 20 / 2
+        (1.145 ** $wealth) + 20
     } else {
         0
     }
@@ -103,7 +103,7 @@ def weight_luxury_drinks [wealth] {
 
 def weight_free_movement [wealth] {
     if ($wealth >= 10) {
-        1.145 ** $wealth / 4
+        1.145 ** $wealth
     } else {
         0
     }
@@ -111,7 +111,7 @@ def weight_free_movement [wealth] {
 
 def weight_communication [wealth] {
     if ($wealth >= 20) {
-        (1.145 ** $wealth) / 3 + 20
+        (1.145 ** $wealth) + 20
     } else {
         0
     }
@@ -119,7 +119,7 @@ def weight_communication [wealth] {
 
 def weight_luxury_food [wealth] {
     if ($wealth >= 20) {
-        (1.145 ** $wealth) + 20 / 2
+        (1.145 ** $wealth) + 20
     } else {
         0
     }
@@ -127,7 +127,7 @@ def weight_luxury_food [wealth] {
 
 def weight_luxury_items [wealth] {
     if ($wealth >= 15) {
-        (1.165 ** $wealth) + 20 / 3
+        (1.165 ** $wealth) + 20
     } else {
         0
     }
@@ -135,7 +135,7 @@ def weight_luxury_items [wealth] {
 
 def weight_leisure [wealth] {
     if ($wealth >= 20) {
-        (1.165 ** $wealth) + 20 / 3
+        (1.165 ** $wealth) + 20
     } else {
         0
     }
@@ -143,7 +143,7 @@ def weight_leisure [wealth] {
 
 def weight_financial_services [wealth] {
     if ($wealth >= 30) {
-        (1.25 ** ($wealth - 20)) + 50
+        (1.3 ** ($wealth - 30)) + 50
     } else {
         0
     }
