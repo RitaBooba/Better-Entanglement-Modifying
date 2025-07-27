@@ -1,6 +1,6 @@
 ﻿lumpen = {
 	texture = "gfx/interface/icons/pops_icons/lumpen.dds"
-	color = hsv{ 0.02 0.38 0.37 }
+	color = hsv{ 0 0 0.20 }
 	unemployment = yes
 	unemployment_wealth = 8
 	education_access = -0.1
