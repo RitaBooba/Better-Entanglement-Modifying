@@ -27,7 +27,7 @@ bem_heat_forth = {
 		value = 20
 		subtract = bem_economy_heat
 	}
-	divide = 5
+	divide = 10
 	round_to = 0.1
 }
 
@@ -38,7 +38,7 @@ bem_investment_weekly_loss = {
 		}
 		value = b:building_bem_private_construction_investor.level
 		multiply = {
-			value = -1000
+			value = -4000
 			multiply = owner.bem_economy_heat
 		}
 	}
@@ -47,7 +47,7 @@ bem_investment_weekly_loss = {
 bem_investment_equilibrium = {
 	value = investment_pool_net_income
 	divide = {
-		value = 250
+		value = 1000
 		multiply = {
 			value = owner.bem_economy_heat
 			min = 1
@@ -86,6 +86,9 @@ bem_rchg_mult = {
 			bem_roi_change < 0
 		}
 		multiply = 1.5
+	}
+	else = {
+		divide = 2
 	}
 }
 
