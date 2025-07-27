@@ -1,0 +1,8 @@
+texticon = {
+  icon = lumpen
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/lumpen.dds"
+    fontsize = 250
+  }
+}
