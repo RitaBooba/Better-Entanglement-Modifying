@@ -10,13 +10,19 @@ je_bem_borrowing = {
 			scope:journal_entry = {
 				if = {
 					limit = {
+						has_modifier = bem_capitalist_investment
+					}
+					remove_modifier = bem_capitalist_investment
+				}
+				if = {
+					limit = {
 						NOT = {
-							has_modifier = bem_capitalist_investment
+							owner = { has_modifier = bem_capitalist_fear }
 						}
 					}
 					add_modifier = {
 						name = bem_capitalist_investment
-						multiplier = 5
+						multiplier = bem_heat_forth
 					}
 				}
 				if = {
@@ -39,6 +45,9 @@ je_bem_borrowing = {
 					remove_modifier = bem_cant_nationalize
 				}
 			}
+		}
+		events = {
+			bem_market_crash_events.1
 		}
 	}
 

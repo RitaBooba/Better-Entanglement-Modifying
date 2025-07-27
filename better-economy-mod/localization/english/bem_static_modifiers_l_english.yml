@@ -46,3 +46,9 @@
   bem_nationalize: "Nationalization"
   bem_can_nationalize: "Can Nationalize"
   bem_cant_nationalize: "Cannot Nationalize"
+
+  bem_market_crash_events.1.t: "#yellow [Event.GetState.GetCityHubName]#! Stock Market Crash"
+  bem_market_crash_events.1.d: "The stock market crash has caused a significant loss of wealth for the upper class, leading to widespread panic and economic instability."
+  bem_market_crash_events.1.f: ""
+  bem_market_crash_events.1.a: "There is little we can do."
+  bem_capitalist_investment: "Capital Savings"

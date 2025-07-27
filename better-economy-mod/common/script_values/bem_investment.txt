@@ -22,6 +22,15 @@ bem_state_investment_levels = {
 	ceiling = yes
 }
 
+bem_heat_forth = {
+	value = {
+		value = 20
+		subtract = bem_economy_heat
+	}
+	divide = 5
+	round_to = 0.1
+}
+
 bem_investment_weekly_loss = {
 	if = {
 		limit = {
@@ -45,6 +54,12 @@ bem_investment_equilibrium = {
 		}
 	}
 	multiply = 1000000
+}
+
+diff_from_equi = {
+	value = investment_pool
+	subtract = bem_investment_equilibrium
+	divide = bem_investment_equilibrium
 }
 
 bem_total_investment_weekly_loss = {

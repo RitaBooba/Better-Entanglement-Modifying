@@ -1,0 +1,61 @@
+namespace = bem_market_crash_events
+
+bem_market_crash_events.1 = { #Heir falls in love with unbecomingly unacceptable pop. The horror!
+	type = country_event
+	placement = ROOT
+
+	title = bem_market_crash_events.1.t
+	desc = bem_market_crash_events.1.d
+	flavor = bem_market_crash_events.1.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:romeo
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	#cooldown = { days = never_fire_again_modifier_time }
+
+	trigger = {
+		diff_from_equi > 0.5
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_variable = bpm_minister_of_economy
+			}
+			var:bpm_minister_of_economy = {
+				save_scope_as = romeo
+			}
+		}
+		else = {
+			ruler = {
+				save_scope_as = romeo
+			}
+		}
+	}
+
+
+	option = {
+		name = bem_market_crash_events.1.a
+		add_investment_pool = {
+			value = investment_pool
+			divide = -1
+		}
+		set_variable = {
+			name = bem_economy_heat
+			value = 20
+		}
+		add_modifier = {
+			name = bem_capitalist_fear
+			months = 60
+			is_decaying = yes
+		}
+	}
+}

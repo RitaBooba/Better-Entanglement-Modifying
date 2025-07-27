@@ -33,6 +33,11 @@ bem_capitalist_investment = {
 	state_capitalists_investment_pool_efficiency_mult = 1
 }
 
+bem_capitalist_fear = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_capitalists_investment_pool_efficiency_mult = -0.75
+}
+
 unemployment_birth_penalty_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	state_birth_rate_mult = 0
