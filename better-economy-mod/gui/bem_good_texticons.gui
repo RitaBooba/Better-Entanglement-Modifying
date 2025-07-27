@@ -8,3 +8,22 @@ texticon = {
 		fontsize = 18
 	}
 }
+
+texticon = {
+	icon = lumpen
+	iconsize = {
+	  offset = { 0 50 }
+	  texture = "gfx/interface/icons/pops_icons/lumpen.dds"
+	  fontsize = 250
+	}
+  }
+  
+  texticon = {
+	icon = lumpen
+	iconsize = {
+	  offset = { 0 5 }
+	  texture = "gfx/interface/icons/pops_icons/lumpen_15.dds"
+	  fontsize = 30
+	}
+  }
+  

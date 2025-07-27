@@ -1,0 +1,27 @@
+bem_nationalize = {
+    name = "bem_nationalize"
+	desc = "bem_nationalize_desc"
+
+    visible = {
+        #BNAP_TODO_RSKHM: Check if the Durham Report has been published
+    }
+
+    ai_chance = {
+        value = 5
+    }
+
+    possible = {
+    
+    }
+
+	cooldown = {
+		days = 1825
+	}
+
+    effect = {
+		add_modifier = {
+			name = bem_can_nationalize
+			days = 30
+		}
+    }
+}

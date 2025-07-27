@@ -17,6 +17,19 @@ je_bem_borrowing = {
 						multiplier = 5
 					}
 				}
+				if = {
+					limit = {
+						NOT = {
+							owner = { has_modifier = bem_can_nationalize }
+						}
+					}
+					add_modifier = {
+						name = bem_cant_nationalize
+					}
+				}
+				else = {
+					remove_modifier = bem_cant_nationalize
+				}
 			}
 		}
 	}
