@@ -32,11 +32,18 @@ je_bem_borrowing = {
 						name = bem_cant_nationalize
 					}
 				}
-				else = {
+				else_if = {
+					limit = {
+						owner = { has_modifier = bem_can_nationalize }
+					}
 					remove_modifier = bem_cant_nationalize
 				}
 			}
+		}
+	}
 
+	on_weekly_pulse = {
+		effect = {
 			if = {
 				limit = {
 					has_variable = bem_previous_roi
@@ -49,10 +56,6 @@ je_bem_borrowing = {
 						divide = owner.bem_roi
 					}
 				}
-			}
-			set_variable = {
-				name = bem_previous_roi
-				value = owner.bem_roi
 			}
 
 			if = {
@@ -74,11 +77,37 @@ je_bem_borrowing = {
 				change_variable = {
 					name = bem_economy_heat
 					multiply = {
-						value = 1.0
-						add = scope:journal_entry.bem_roi_change
+						value = 1
+						add = {
+							value = bem_roi_change
+							multiply = -5
+						}
 					}
 				}
+				clamp_variable = {
+					name = bem_economy_heat
+					min = 1
+					max = 20
+				}
 			}
+			set_variable = {
+				name = bem_heatchg
+				value = {
+					value = bem_roi_change
+					multiply = -5
+				}
+			}
+			set_variable = {
+				name = bem_roichg
+				value = bem_roi_change
+			}
+
+			set_variable = {
+				name = bem_previous_roi
+				value = owner.bem_roi
+			}
+			
+
 		}
 	}
 

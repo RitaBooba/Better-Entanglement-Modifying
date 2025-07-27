@@ -96,19 +96,48 @@ bem_tol4_con = {
 bem_l0_con = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_no_construction_infrastructure
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_no_construction_infrastructure
+		}
+	}
+
+	effect = {
+		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_bem_no_construction_infrastructure
 		}
 	}
 }
 
+
 bem_l1_con = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_basic_construction_infrastructure
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_basic_construction_infrastructure
+		}
+	}
+
+	effect = {
+		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_bem_basic_construction_infrastructure
 		}
@@ -118,8 +147,22 @@ bem_l1_con = {
 bem_l2_con = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_construction_sites
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_construction_sites
+		}
+	}
+
+	effect = {
+		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_bem_construction_sites
 		}
@@ -129,8 +172,22 @@ bem_l2_con = {
 bem_l3_con = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_organized_works
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_organized_works
+		}
+	}
+
+	effect = {
+		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_bem_organized_works
 		}
@@ -140,8 +197,22 @@ bem_l3_con = {
 bem_l4_con = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_urban_center
+			production_method = pm_bem_industrial_sites
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_bem_industrial_sites
+		}
+	}
+
+	effect = {
+		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_bem_industrial_sites
 		}
@@ -210,8 +281,15 @@ bem_tovery_high_government_spending = {
 bem_no_government_spending = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_no_spending
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
 			building_type = building_government_administration
 			production_method = pm_bem_no_spending
 		}
@@ -228,8 +306,15 @@ bem_no_government_spending = {
 bem_low_government_spending = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_low_spending
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
 			building_type = building_government_administration
 			production_method = pm_bem_low_spending
 		}
@@ -246,8 +331,15 @@ bem_low_government_spending = {
 bem_moderate_government_spending = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_moderate_spending
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
 			building_type = building_government_administration
 			production_method = pm_bem_moderate_spending
 		}
@@ -264,8 +356,15 @@ bem_moderate_government_spending = {
 bem_high_government_spending = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_high_spending
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
 			building_type = building_government_administration
 			production_method = pm_bem_high_spending
 		}
@@ -282,8 +381,15 @@ bem_high_government_spending = {
 bem_very_high_government_spending = {
 	scope = state
 
-	is_valid = {
+	is_shown = {
 		is_production_method_active = {
+			building_type = building_government_administration
+			production_method = pm_bem_very_high_spending
+		}
+	}
+
+	is_valid = {
+		can_activate_production_method = {
 			building_type = building_government_administration
 			production_method = pm_bem_very_high_spending
 		}
@@ -296,3 +402,4 @@ bem_very_high_government_spending = {
 		}
 	}
 }
+

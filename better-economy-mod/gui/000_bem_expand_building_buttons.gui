@@ -246,9 +246,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tono_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_no_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_no_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_no_government_spending').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -260,9 +261,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tolow_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_low_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_low_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_low_government_spending').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -274,9 +276,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tomoderate_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_moderate_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_moderate_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_moderate_government_spending').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -288,9 +291,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tohigh_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_high_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_high_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_high_government_spending').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -302,9 +306,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tovery_high_government_spending').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_very_high_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_very_high_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_very_high_government_spending').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 			}
@@ -351,9 +356,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tol0_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_l0_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_l0_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_l0_con').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -365,9 +371,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tol1_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_l1_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_l1_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_l1_con').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -379,9 +386,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tol2_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_l2_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_l2_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_l2_con').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -393,9 +401,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tol3_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_l3_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_l3_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_l3_con').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 				bem_spending_level = {
@@ -407,9 +416,10 @@ types building_panels
 					}
 					blockoverride "click" {
 						onclick = "[GetScriptedGui('bem_tol4_con').Execute( GuiScope.SetRoot(State.MakeScope ).End )]"
+						enabled = "[GetScriptedGui('bem_l4_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 					blockoverride "is_selected_visibility" {
-						visible = "[GetScriptedGui('bem_l4_con').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+						visible = "[GetScriptedGui('bem_l4_con').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 					}
 				}
 			}
@@ -441,7 +451,7 @@ types building_panels
 			parentanchor = center
 
 			block "is_selected_visibility" {
-				visible = "[GetScriptedGui('bem_no_government_spending').IsValid( GuiScope.SetRoot(State.MakeScope ).End )]"
+				visible = "[GetScriptedGui('bem_no_government_spending').IsShown( GuiScope.SetRoot(State.MakeScope ).End )]"
 			}
 			
 			state = {

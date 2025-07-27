@@ -23,10 +23,34 @@ bem_state_investment_levels = {
 }
 
 bem_investment_weekly_loss = {
-	value = b:building_bem_private_construction_investor.level
-	multiply = {
-		value = -1000
-		multiply = owner.bem_economy_heat
+	if = {
+		limit = {
+			has_building = building_bem_private_construction_investor
+		}
+		value = b:building_bem_private_construction_investor.level
+		multiply = {
+			value = -1000
+			multiply = owner.bem_economy_heat
+		}
+	}
+}
+
+bem_investment_equilibrium = {
+	value = investment_pool_net_income
+	divide = {
+		value = 250
+		multiply = {
+			value = owner.bem_economy_heat
+			min = 1
+		}
+	}
+	multiply = 1000000
+}
+
+bem_total_investment_weekly_loss = {
+	value = 0
+	every_scope_state = {
+		add = bem_investment_weekly_loss
 	}
 }
 
@@ -38,6 +62,9 @@ bem_building_level_diff = {
 bem_roi = {
 	value = 0
 	every_scope_building = {
+		limit = {
+			level > 0
+		}
 		add = {
 			value = weekly_profit
 			multiply = private_ownership_fraction
@@ -47,7 +74,7 @@ bem_roi = {
 	divide = {
 		value = 0
 		every_scope_building = {
-			add = 1
+			add = level
 		}
 	}
 }
@@ -80,6 +107,26 @@ bem_previous_roi = {
 		}
 	}
 }
+
+bem_heatchg = {
+	value = 0
+	if = {
+		limit = {
+			has_variable = bem_heatchg
+		}
+		value = var:bem_heatchg
+	}
+}
+bem_roichg = {
+	value = 0
+	if = {
+		limit = {
+			has_variable = bem_roichg
+		}
+		add = var:bem_roichg
+	}
+}
+
 
 bem_economy_heat = {
 	value = 0
