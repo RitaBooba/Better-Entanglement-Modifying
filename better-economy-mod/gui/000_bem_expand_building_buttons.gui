@@ -207,6 +207,7 @@ types building_panels
 	}
 
 	type bem_govpms = container {
+		visible = "[StatesPanel.GetState.GetOwner.IsLocalPlayer]"
 		minimumsize = { @panel_width_half_minus_10 50 }
 
 		flowcontainer = {
@@ -317,6 +318,7 @@ types building_panels
 	}
 
 	type bem_conpms = container {
+		visible = "[StatesPanel.GetState.GetOwner.IsLocalPlayer]"
 		minimumsize = { @panel_width_half_minus_10 50 }
 
 		flowcontainer = {
