@@ -14,7 +14,7 @@
   state_lumpen_dependent_wage_mult: "$lumpen$ Dependent Income"
   state_lumpen_dependent_wage_mult_desc: "Multiplier on $lumpen$ dependent income."
   pmg_bem_gov_services: "Government Service Spending"
-  pmg_bem_urban_infrastructure: "Urban Construction Infrastructure
+  pmg_bem_urban_infrastructure: "Urban Construction Infrastructure"
   pm_bem_no_spending: "No Spending"
 	pm_bem_low_spending: "Low Spending"
 	pm_bem_moderate_spending: "Moderate Spending"
