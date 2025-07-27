@@ -80,7 +80,15 @@ je_bem_borrowing = {
 						value = 1
 						add = {
 							value = bem_roi_change
-							multiply = -5
+							if = {
+								limit = {
+									bem_roi_change < 0
+								}
+								multiply = -5
+							} 
+							else = {
+								divide = -2
+							}
 						}
 					}
 				}
@@ -94,7 +102,15 @@ je_bem_borrowing = {
 				name = bem_heatchg
 				value = {
 					value = bem_roi_change
-					multiply = -5
+					if = {
+						limit = {
+							bem_roi_change < 0
+						}
+						multiply = -1
+					} 
+					else = {
+						divide = -1.5
+					}
 				}
 			}
 			set_variable = {
