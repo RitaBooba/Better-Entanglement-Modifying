@@ -155,7 +155,7 @@ bem_do_state_building = {
 			name = level
 			value = {
 				value = scope:prevlev
-				add = 1
+				add = bem_number_produced_max
 			}
 		}
 		remove_variable = bem_queue_ptr_0

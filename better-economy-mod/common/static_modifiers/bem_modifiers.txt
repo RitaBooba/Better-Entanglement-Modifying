@@ -1,6 +1,6 @@
 bem_more_private_construction = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	country_construction_add = -99999
+	country_construction_add = -10
 }
 
 bem_urbanization_boost = {

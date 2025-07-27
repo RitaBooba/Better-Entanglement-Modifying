@@ -2,6 +2,8 @@ je_bem_borrowing = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	group = je_group_internal_affairs
+	
+	scripted_button = bem_nationalize
 
 	on_monthly_pulse = {
 		effect = {
@@ -22,6 +24,9 @@ je_bem_borrowing = {
 						NOT = {
 							owner = { has_modifier = bem_can_nationalize }
 						}
+						NOT = {
+							has_modifier = bem_cant_nationalize
+						}
 					}
 					add_modifier = {
 						name = bem_cant_nationalize
@@ -29,6 +34,26 @@ je_bem_borrowing = {
 				}
 				else = {
 					remove_modifier = bem_cant_nationalize
+				}
+			}
+
+			scope:journal_entry = {
+				if = {
+					limit = {
+						has_variable = bem_previous_roi
+					}
+					set_variable = {
+						name = bem_roi_change
+						value = {
+							value = owner.bem_roi
+							subtract = var:bem_previous_roi
+							divide = owner.bem_roi
+						}
+					}
+				}
+				set_variable = {
+					name = bem_previous_roi
+					value = owner.bem_roi
 				}
 			}
 		}

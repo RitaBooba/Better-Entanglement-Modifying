@@ -7,7 +7,7 @@ bem_nationalize = {
     }
 
     ai_chance = {
-        value = 5
+        value = 100
     }
 
     possible = {

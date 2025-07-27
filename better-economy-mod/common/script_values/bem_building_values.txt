@@ -94,4 +94,5 @@ bem_number_produced_max = {
 	value = bem_number_produced_max_r
 	min = 1
 	max = 20
+	ceiling = yes
 }
