@@ -6,7 +6,7 @@ pm_bem_low_spending = {
 	texture = "gfx/interface/icons/production_method_icons/unused/elected_bureaucrats.dds"
 
 	unlocking_technologies = {
-		central_banking
+		banking
 	}
 
 	country_modifiers = {
@@ -31,7 +31,7 @@ pm_bem_moderate_spending = {
 	texture = "gfx/interface/icons/production_method_icons/moderate_admin_spending.dds"
 
 	unlocking_technologies = {
-		mutual_funds
+		central_banking
 	}
 	
 	country_modifiers = {
@@ -56,7 +56,7 @@ pm_bem_high_spending = {
 	texture = "gfx/interface/icons/production_method_icons/high_admin_spending.dds"
 
 	unlocking_technologies = {
-		international_exchange_standards
+		mutual_funds
 	}
 
 	country_modifiers = {
@@ -81,7 +81,7 @@ pm_bem_very_high_spending = {
 	texture = "gfx/interface/icons/production_method_icons/very_high_admin_spending.dds"
 	
 	unlocking_technologies = {
-		modern_financial_instruments
+		international_exchange_standards
 	}
 
 	country_modifiers = {
