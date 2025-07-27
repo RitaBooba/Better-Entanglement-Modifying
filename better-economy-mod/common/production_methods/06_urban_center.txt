@@ -545,7 +545,7 @@ pm_bem_basic_construction_infrastructure = {
 }
 
 pm_bem_construction_sites = {
-	texture = "gfx/interface/icons/production_method_icons/unused/trade_center.dds"
+	texture = "gfx/interface/icons/production_method_icons/trade_center.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
