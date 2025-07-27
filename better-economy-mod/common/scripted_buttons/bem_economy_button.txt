@@ -23,5 +23,8 @@ bem_nationalize = {
 			name = bem_can_nationalize
 			days = 30
 		}
+		scope:journal_entry = {
+			remove_modifier = bem_cant_nationalize
+		}
     }
 }
