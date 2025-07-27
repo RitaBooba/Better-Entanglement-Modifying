@@ -522,6 +522,11 @@ pm_bem_no_construction_infrastructure = {
 }
 pm_bem_basic_construction_infrastructure = {
 	texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 80
@@ -546,6 +551,10 @@ pm_bem_basic_construction_infrastructure = {
 
 pm_bem_construction_sites = {
 	texture = "gfx/interface/icons/production_method_icons/trade_center.dds"
+	
+	unlocking_technologies = {
+		modern_sewerage
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -571,6 +580,10 @@ pm_bem_construction_sites = {
 
 pm_bem_organized_works = {
 	texture = "gfx/interface/icons/production_method_icons/unused/stock_exchange.dds"
+	
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -598,6 +611,10 @@ pm_bem_organized_works = {
 
 pm_bem_industrial_sites = {
 	texture = "gfx/interface/icons/production_method_icons/unused/financial_district.dds"
+	
+	unlocking_technologies = {
+		elevator
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
