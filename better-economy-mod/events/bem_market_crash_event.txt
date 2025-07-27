@@ -22,7 +22,8 @@ bem_market_crash_events.1 = { #Heir falls in love with unbecomingly unacceptable
 	#cooldown = { days = never_fire_again_modifier_time }
 
 	trigger = {
-		diff_from_equi > 0.5
+		# sorry losers
+		diff_from_equi > 0.15
 	}
 
 	immediate = {
