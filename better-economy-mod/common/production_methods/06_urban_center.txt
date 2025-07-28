@@ -527,6 +527,12 @@ pm_bem_basic_construction_infrastructure = {
 		urban_planning
 	}
 
+	unlocking_production_methods = {
+		pm_market_squares
+		pm_covered_markets
+		pm_arcades
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 80
@@ -554,6 +560,12 @@ pm_bem_construction_sites = {
 	
 	unlocking_technologies = {
 		modern_sewerage
+	}
+
+	unlocking_production_methods = {
+		pm_market_squares
+		pm_covered_markets
+		pm_arcades
 	}
 
 	building_modifiers = {
@@ -585,6 +597,11 @@ pm_bem_organized_works = {
 		steel_frame_buildings
 	}
 
+	unlocking_production_methods = {
+		pm_covered_markets
+		pm_arcades
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_steel_add = 80
@@ -614,6 +631,10 @@ pm_bem_industrial_sites = {
 	
 	unlocking_technologies = {
 		elevator
+	}
+
+	unlocking_production_methods = {
+		pm_arcades
 	}
 
 	building_modifiers = {
