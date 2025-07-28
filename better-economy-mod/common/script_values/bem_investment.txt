@@ -27,7 +27,7 @@ bem_heat_forth = {
 		value = 20
 		subtract = bem_economy_heat
 	}
-	divide = 10
+	# divide = 5
 	round_to = 0.1
 }
 
@@ -38,22 +38,37 @@ bem_investment_weekly_loss = {
 		}
 		value = b:building_bem_private_construction_investor.level
 		multiply = {
-			value = -4000
+			value = -1000
 			multiply = owner.bem_economy_heat
 		}
 	}
 }
 
-bem_investment_equilibrium = {
+bem_investment_equilibrium_r = {
 	value = investment_pool_net_income
 	divide = {
-		value = 1000
-		multiply = {
-			value = owner.bem_economy_heat
-			min = 1
+		value = bem_economy_heat
+		min = 1
+	}
+	multiply = 1000
+}
+
+bem_investment_equilibrium = {
+	if = {
+		limit = {
+			bem_investment_equilibrium_r > investment_pool_net_income
+		}
+		value = bem_investment_equilibrium_r
+	}
+	else = {
+		value = {
+			value = investment_pool_net_income
+			subtract = {
+				value = bem_total_investment_weekly_loss
+			}
 		}
 	}
-	multiply = 1000000
+	min=10000000
 }
 
 diff_from_equi = {
@@ -85,11 +100,11 @@ bem_rchg_mult = {
 		limit = {
 			bem_roi_change < 0
 		}
-		multiply = 1.5
 	}
 	else = {
-		divide = 2
+		divide = 1.5
 	}
+	divide = 10
 }
 
 bem_roi_change = {

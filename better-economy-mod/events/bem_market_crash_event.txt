@@ -19,11 +19,11 @@ bem_market_crash_events.1 = { #Heir falls in love with unbecomingly unacceptable
 
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
-	#cooldown = { days = never_fire_again_modifier_time }
+	cooldown = { days = 365 }
 
 	trigger = {
 		# sorry losers
-		diff_from_equi > 0.15
+		diff_from_equi > 0.25
 	}
 
 	immediate = {

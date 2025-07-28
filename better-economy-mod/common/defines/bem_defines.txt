@@ -5,8 +5,8 @@
 	NUM_TIMES_TO_INITIALIZE_WEALTH = 10
 	NUM_TIMES_TO_UPDATE_TRADE_DURING_INITIALIZATION = 10 # Extra times that separate trade update step is run
 
-	COUNTRY_GDP_MODIFIER_DIVISOR = 1000					# Scale the country_gdp static modifier by this divisor
-	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 200000		# The country_gdp modifier multiplier cannot be higher than this
+	COUNTRY_GDP_MODIFIER_DIVISOR = 10000					# Scale the country_gdp static modifier by this divisor
+	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 1000000		# The country_gdp modifier multiplier cannot be higher than this
 
 	ECONOMY_OF_SCALE_START_LEVEL = 1					# Level at which buildings start getting economy of scale bonuses. Levels lower than this value provide no bonus [>=1]
 	ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT = 0.5	# Non-government building economy of scale modifier if multiplied by (1 - the fraction of nationalized levels * this)
@@ -255,7 +255,7 @@
 	SUBVENTION_LEVEL_EFFECT_HIGH = 0.5					# The fraction of subvention rate applied at high level
 	SUBVENTION_LEVEL_EFFECT_MAXIMUM = 1.0				# The fraction of subvention rate applied at maximum level
 
-	REINVESTMENT_EFFICIENCY_MAX = 3.0					# Maximum conversion of reinvestment to investment pool
+	REINVESTMENT_EFFICIENCY_MAX = 1.0					# Maximum conversion of reinvestment to investment pool
 	REINVESTMENT_BASE_EFFICIENCY_THRESHOLD = 50000000	# Below this amount of GDP, increase reinvestment multiplier on a linear scale up to REINVESTMENT_EFFICIENCY_MAX at 0
 	REINVESTMENT_SUBSISTENCE_FRACTION_REDUCTION = 0.5	# Reinvestment from pops in ownership buildings is multiplied by ( 1 - this * the share of levels owned that are subsistence buildings )
 
