@@ -18,6 +18,11 @@ on_bem_game_started = {
 }
 
 on_monthly_pulse_state = {
+	on_actions = {
+		on_bem_monthly_pulse_state
+	}
+}
+on_bem_monthly_pulse_state = {
 	effect = {
 		if = {
 			limit = {
